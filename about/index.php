@@ -1,5 +1,5 @@
 <?php
-require "../include/common.php";
+require "../includes/common.php";
 
 $title = "About"
 include "$inc/header.php";

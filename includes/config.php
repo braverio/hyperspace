@@ -1,5 +1,5 @@
 <?php
 
-$inc = "/var/www/hyperspace.club/www"; 
+$inc = "/var/www/hyperspace.club/www/includes"; 
 
 ?>
