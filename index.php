@@ -5,7 +5,8 @@ $title = "Home";
 include "$inc/header.php";
 ?>
 
-Fun stuff
+<div id="content-wrap">
+</div>
 
 <?
 include "$inc/footer.php";    

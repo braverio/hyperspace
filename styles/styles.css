@@ -1,0 +1,27 @@
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    font-size: 12px;
+    background-color:#717D8C;
+}
+
+nav{
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+    height: 5em;
+}
+
+nav > li{
+    font-size: 24px;
+    color: #ccc;
+}
+
+#content-wrap{
+    margin-top: 5em;
+}
