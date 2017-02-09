@@ -6,6 +6,7 @@ include "$inc/header.php";
 ?>
 
 <div id="content-wrap">
+    Home Page
 </div>
 
 <?

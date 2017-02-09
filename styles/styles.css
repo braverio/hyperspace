@@ -10,16 +10,104 @@ body{
     background-color:#717D8C;
 }
 
+#navbar-wrap{
+    height: 4em;
+}
+
 nav{
     position:fixed;
     width: 100%;
     z-index: 99;
-    height: 5em;
+    height: 4em;
 }
 
-nav > li{
-    font-size: 24px;
-    color: #ccc;
+nav img{
+    height: 3em;
+    vertical-align: middle;
+}
+nav ul {
+    list-style: none;
+    background-color: #001f3f;
+    text-align: center;
+}
+
+nav li {
+    padding: 1em;
+    font-size: 1.2em;
+    font-family: Arial;
+    text-align: center;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+    transition: color .25s;
+}
+
+nav a:hover{
+    color: #eee;
+}
+
+nav li li {
+    font-size: 0.8em;
+}
+
+nav li ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .25s;
+}
+
+nav li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+nav li ul li {
+    display: block;
+    text-align: left;
+}
+
+#toggleMenu{
+    position: absolute;
+    right: 0px;
+    height: 3em;
+    padding: 0.5em;
+    margin: 1em;
+    cursor: pointer;
+    background: #555;
+}
+
+#hamburger li{
+    display: block;
+}
+
+footer p{
+    padding-bottom: 0px;
+}
+footer{
+    width: 100%;
+    color: #eee;
+    background: #222;
+    margin-top: 1em;
+    padding: 2em 0em;
+    text-align: center;
+}
+
+footer img{
+    height: 3.5em;
+    display: inline;
+    transition: opacity .25s;
+}
+footer img:hover{
+    opacity: .75;
+}
+
+img.sm{
+    width: 32%;
 }
 
 #content-wrap{
