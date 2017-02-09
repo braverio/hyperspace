@@ -1,3 +1,8 @@
+*{
+    font-family: Arial;
+    font-size: 20px;
+}
+
 .parallax{
     background-attachment: fixed;
     background-position: center;
@@ -7,7 +12,7 @@
 
 body{
     font-size: 12px;
-    background-color:#717D8C;
+    background-color:#161925;
 }
 
 nav{
@@ -24,4 +29,21 @@ nav > li{
 
 #content-wrap{
     margin-top: 5em;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #BDB69C;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #2F343A;
+    text-decoration: none;
+    padding: 10px;
 }
