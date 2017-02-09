@@ -1,3 +1,14 @@
+html, div, span, ol, ul, li{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 20px;
+	vertical-align: baseline;
+    list-style-type: none;
+    color: white;
+    font-family: Tahoma;
+}
+
 .parallax{
     background-attachment: fixed;
     background-position: center;
@@ -6,8 +17,7 @@
 }
 
 body{
-    font-size: 12px;
-    background-color:#717D8C;
+    background-color:#161925;
 }
 
 #navbar-wrap{
