@@ -47,3 +47,7 @@ li a {
     text-decoration: none;
     padding: 10px;
 }
+
+img{
+    display:block;
+}
