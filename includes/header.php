@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
     <link rel="stylesheet" href="/styles/responsive.css">
-    <link rel="icon" href="/images/favicon.jpg">
+    <link rel="icon" href="/images/a.png">
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
 </head>
 
@@ -15,7 +15,7 @@
     <nav id="navbar">
         <ul>
             <li>
-                <a href="/home"><img src="/images/logo-med.png"></a>
+                <a href="/"><img src="/images/logoslogansmall.png"></a>
             </li>
             <li>
                 <a href="/about">About</a>
