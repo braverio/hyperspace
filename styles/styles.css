@@ -174,12 +174,20 @@ img.sm {
     width: 50%;
 }
 
+.limgwa {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    padding: 0%;
+    margin-top: 3.5em;
+    transition: padding .25s;
+}
+
 .imgwa {
     height: 15em;
     width: 15em;
     position: relative;
     padding: 0%;
-    margin-top: 3em;
     transition: padding .25s;
 }
 
