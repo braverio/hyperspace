@@ -65,7 +65,7 @@ table {
 
 [class*="col-"] {
     float: left;
-    padding:2em;
+    padding:1em;
 }
 
 .row::after {

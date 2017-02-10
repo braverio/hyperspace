@@ -59,7 +59,7 @@ include "$inc/header.php";
             <h3><span class="bold">50 Asteroids</span> $9.99</h3>
             <h3><span class="bold">1 Asteroids</span> $0.25</h3>
         </div>
-        <a href="/manage">Manage my Space Card</a>
+        <a href="/manage"><div class="button">Manage my Space Card</div></a>
         
     </div>
     
@@ -83,7 +83,7 @@ include "$inc/header.php";
         <a href="/reserve"><div class="button col-6">Reserve Now</div></a>
     </div>
     
-    <div class="row">
+    <div id="main-games" class="row">
         <h1>Games</h1>
         <div class="parallax parallax-1">Toss Into Space</div>
         <div class="parallax parallax-2">Basketball</div>
