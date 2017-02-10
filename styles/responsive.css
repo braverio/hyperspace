@@ -19,6 +19,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,7 +67,8 @@ table {
 
 [class*="col-"] {
     float: left;
-    padding:1em;
+    padding: 15px;
+    border: 1px solid red;
 }
 
 .row::after {
@@ -82,8 +85,4 @@ img {
 video {
     max-width: 100%;
     height: auto;
-}
-
-.row{
-    margin:5em 10em;
 }
