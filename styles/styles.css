@@ -1,58 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-html, div, span, ol, ul, li{
+html,
+h1,
+h2,
+h3,
+h4,
+h5 body div,
+footer span,
+ol,
+ul,
+li {
     margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 20px;
-	vertical-align: baseline;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    vertical-align: baseline;
     list-style-type: none;
     color: white;
-    font-family: 'Roboto';
+    font-family: Tahoma;
 }
 
-.parallax-o{
+.parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-body{
-    background-color:#161925;
-    font-size: 12px;
+body {
+    background-color: #161925;
 }
 
-h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size:4em;
-}
-
-h2{
-    font-size: 2em;
-    font-family: 'Roboto',sans-serif;
-}
-
-p{
-    font-family: 'Roboto',sans-serif;
-}
-
-#navbar-wrap{
+#navbar-wrap {
     height: 4em;
 }
 
-nav{
-    position:fixed;
+nav {
+    position: fixed;
     width: 100%;
     z-index: 99;
     height: 4em;
 }
 
-nav img{
+nav img {
     height: 3em;
     vertical-align: middle;
 }
+
 nav ul {
     list-style: none;
     background-color: #001f3f;
@@ -74,7 +66,7 @@ nav a {
     transition: color .25s;
 }
 
-nav a:hover{
+nav a:hover {
     color: #eee;
 }
 
@@ -99,7 +91,7 @@ nav li ul li {
     text-align: left;
 }
 
-#toggleMenu{
+#toggleMenu {
     position: absolute;
     right: 0px;
     height: 3em;
@@ -109,14 +101,15 @@ nav li ul li {
     background: #555;
 }
 
-#hamburger li{
+#hamburger li {
     display: block;
 }
 
-footer p{
+footer p {
     padding-bottom: 0px;
 }
-footer{
+
+footer {
     width: 100%;
     color: #eee;
     background: #222;
@@ -125,39 +118,38 @@ footer{
     text-align: center;
 }
 
-footer img{
+footer img {
     height: 3.5em;
     display: inline;
     transition: opacity .25s;
 }
-footer img:hover{
+
+footer img:hover {
     opacity: .75;
 }
 
-img.sm{
+img.sm {
     width: 32%;
 }
 
-#content-wrap{
-}
-
-.hidden{
+.hidden {
     display: none;
 }
 
-.center-vertical{
+.center-vertical {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.parallax-landing{
+.parallax-landing {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-.parallax{
+
+.parallax {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -166,94 +158,132 @@ img.sm{
     margin-bottom: 2em;
 }
 
-.parallax-0{
+.parallax-0 {
     background-image: url("/images/space-bg.jpg");
     height: 100vh;
 }
 
-.parallax-1{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Uss_iowa_bb-61_pr.jpg");
-}
-
-.parallax-2{
-    background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/basketball-net.jpg");
-}
-
-.parallax-3{
-    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
-}
-
-.parallax-4{
-    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
-}
-
-.parallax-5{
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/02/spaceship-1839722_960_720.jpg");
-}
-
-.parallax-6{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rocky_Ring_of_Debris_Around_Vega.jpg");
-}
-
-#logo-wrap{
-    background-color: rgba(50,50,50,0.5);
+#logo-wrap {
+    background-color: rgba(50, 50, 50, 0.5);
     text-align: center;
 }
 
-#logo-wrap img{
-    width:50%;
+#logo-wrap img {
+    width: 50%;
 }
 
-.circle{
-    padding:2em;
+.limgwa {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    padding: 0%;
+    margin-top: 3.5em;
+    transition: padding .25s;
 }
 
-.circle img{
-    width:75%;
-    padding:10%;
-    border: 1px solid #222;
-    border-radius: 50%;
-    transition:padding .25s;
+.imgwa {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    padding: 0%;
+    transition: padding .25s;
 }
 
-.circle img:hover{
-    padding:0%;
-}
-
-.container{
+h1 {
+    font-size: 3em;
     text-align: center;
+    font-family: 'Monsterrat';
 }
 
-.bold{
-    font-weight: bold;
-}
-
-.button{
-    width: 100%;
-    color:#ccc;
-    background-color: aqua;
-    border-radius: 0;
-}
-
-.button{
-    color:#ccc;
-    background-color: aqua;
-    border-radius: 0;
-    display: inline-block;
-    line-height:4em;
+h2 {
+    font-size: 1.5em;
     text-align: center;
-    height:4em;
-    margin:1em auto;
-}
-
-.btn-wrap{
-
-}
-
-#main-games div{
-    text-align: center;
-    font-size:5em;
-    font-weight: bold;
     font-family: 'Roboto';
-    line-height: 500px;
+}
+
+.child-left {
+    float: left;
+}
+
+.button {
+    text-align: center;
+    font-size: 1.5em;
+    color: navy;
+    background-color: beige;
+    padding: 0.5em;
+    margin: 1em;
+    border-right: 1em solid #161925;
+}
+
+h4 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.boys {
+    text-align: center;
+}
+
+.foodbar {
+    width: 100%;
+    background-color: palegoldenrod;
+    color: navy;
+    padding: 10px;
+    font-size: 1.5em;
+    position: absolute;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    position: relative;
+    text-align: center;
+}
+
+.container:after,
+.row:after,
+.page:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#sodaimg {
+    margin-top: 5em;
+    width: 75%;
+    height: 10%;
+}
+
+.onegame {
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 85%;
+    height: 15em;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+.onegameOG {
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 85%;
+    height: 15em;
+    position: absolute;
+    margin-bottom: 4em;
+}
+
+.gameimg {
+    width: 15em;
+    height: 15em;
+    float: left;
+    margin-right: 2em;
+}
+
+.nameanddes {
+    text-align: left;
+    margin-left: 5em;
 }

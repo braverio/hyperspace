@@ -7,6 +7,6 @@ include "$inc/header.php";
 
 Fun stuff
 
-<?
+<?php
 include "$inc/footer.php";    
 ?>

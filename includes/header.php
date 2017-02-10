@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/styles/mobile.css">
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="icon" href="/images/a.png">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
 </head>
 
