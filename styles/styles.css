@@ -25,17 +25,17 @@ body{
 }
 
 h1{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size:5em;
 }
 
 h2{
     font-size: 2em;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 }
 
 p{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 }
 
 #navbar-wrap{
