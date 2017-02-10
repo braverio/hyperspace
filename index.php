@@ -18,7 +18,7 @@ include "$inc/header.php";
                 </div>
             </div>
             <div class="more">
-                <a href="#1"><div class="button" style="width: 5em;">Learn more</div></a>
+                <a href="#1"><div class="button" style="width: 10em; height:4em;">Learn more</div></a>
             </div>
         </div>
         </div>
@@ -65,15 +65,38 @@ include "$inc/header.php";
     
     <div class="row">
         <h1>Party Packages</h1>
+        <div class="col-4">
+            <h2>Earth Package</h2>
+            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
+        </div>
+        <div class="col-4">
+            <h2>Jupiter Package</h2>
+            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
+        </div>
+        <div class="col-4">
+            <h2>Mars Package</h2>
+            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
+        </div>
+    </div>
+    <div class="row">
+        <a href="/packages"><div class="button col-6">Learn More</div></a>
+        <a href="/reserve"><div class="button col-6">Reserve Now</div></a>
     </div>
     
     <div class="row">
         <h1>Games</h1>
+        <div class="parallax parallax-1">Toss Into Space</div>
+        <div class="parallax parallax-2">Basketball</div>
+        <div class="parallax parallax-3">Skeeball</div>
+        <div class="parallax parallax-4">Air Hockey</div>
+        <div class="parallax parallax-5">Spaceship Racing</div>
+        <div class="parallax parallax-6">Asteroid Belt Maze</div>
     </div>
     
     <div class="row">
         <div class="col-6">
             <h1>E-Club</h1>
+            <p>Join our E-club</p>
         </div>
         <div class="col-6">
             <h1>Reviews</h1>

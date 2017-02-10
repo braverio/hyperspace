@@ -26,7 +26,7 @@ body{
 
 h1{
     font-family: 'Montserrat',sans-serif;
-    font-size:5em;
+    font-size:4em;
 }
 
 h2{
@@ -171,6 +171,30 @@ img.sm{
     height: 100vh;
 }
 
+.parallax-1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Uss_iowa_bb-61_pr.jpg");
+}
+
+.parallax-2{
+    background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/basketball-net.jpg");
+}
+
+.parallax-3{
+    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+}
+
+.parallax-4{
+    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+}
+
+.parallax-5{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/02/spaceship-1839722_960_720.jpg");
+}
+
+.parallax-6{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rocky_Ring_of_Debris_Around_Vega.jpg");
+}
+
 #logo-wrap{
     background-color: rgba(50,50,50,0.5);
     text-align: center;
@@ -178,6 +202,10 @@ img.sm{
 
 #logo-wrap img{
     width:50%;
+}
+
+.circle{
+    padding:2em;
 }
 
 .circle img{
@@ -213,4 +241,6 @@ img.sm{
     border-radius: 0;
     display: inline-block;
     height:2em;
+    text-align: center;
+    margin:2em auto;
 }
