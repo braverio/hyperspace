@@ -257,3 +257,32 @@ h4 {
     width: 75%;
     height: 10%;
 }
+
+.onegame {
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 85%;
+    height: 15em;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+.onegameOG {
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 85%;
+    height: 15em;
+    position: absolute;
+    margin-bottom: 4em;
+}
+
+.gameimg {
+    width: 15em;
+    height: 15em;
+    float: left;
+}
+
+.nameanddes {
+    text-align: left;
+    margin-left: 5em;
+}
