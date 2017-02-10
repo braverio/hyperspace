@@ -17,7 +17,7 @@ include "$inc/header.php";
                     <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
                 </div>
             </div>
-            <div class="more">
+            <div class="btn-wrap">
                 <a href="#1"><div class="button" style="width: 10em; height:4em;">Learn more</div></a>
             </div>
         </div>
@@ -78,7 +78,7 @@ include "$inc/header.php";
             <p>dhfaso;fha o;fho;sdf ho;sdh</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row btn-wrap">
         <a href="/packages"><div class="button col-6">Learn More</div></a>
         <a href="/reserve"><div class="button col-6">Reserve Now</div></a>
     </div>
