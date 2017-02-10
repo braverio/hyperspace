@@ -121,7 +121,6 @@ img.sm{
 }
 
 #content-wrap{
-    margin-top: 5em;
 }
 
 .hidden{
@@ -151,6 +150,7 @@ img.sm{
 
 .parallax-0{
     background-image: url("/images/space-bg.jpg");
+    height: 100vh;
 }
 
 #logo-wrap{
