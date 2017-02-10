@@ -123,3 +123,41 @@ img.sm{
 #content-wrap{
     margin-top: 5em;
 }
+
+.hidden{
+    display: none;
+}
+
+.center-vertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.parallax-landing{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 2em;
+}
+
+.parallax-0{
+    background-image: url("/images/space-bg.jpg");
+}
+
+#logo-wrap{
+    background-color: rgba(50,50,50,0.5);
+    text-align: center;
+}
+
+#logo-wrap img{
+    width:50%;
+}
