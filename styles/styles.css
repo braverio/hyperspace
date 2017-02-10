@@ -12,7 +12,7 @@ html, div, span, ol, ul, li{
     font-family: 'Roboto';
 }
 
-.parallax{
+.parallax-o{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -243,6 +243,7 @@ img.sm{
     line-height:4em;
     text-align: center;
     height:4em;
+    margin:1em auto;
 }
 
 .btn-wrap{
@@ -251,9 +252,11 @@ img.sm{
 
 #main-games div{
     text-align: center;
-    font-size:2em;
+    font-size:5em;
+    font-weight: bold;
     font-family: 'Roboto';
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    line-height: 500px;
 }
