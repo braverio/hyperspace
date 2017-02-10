@@ -23,20 +23,20 @@ include "$inc/header.php";
         </div>
         </div>
     </div>
-    <div id="1" class="row">
-        <img src="https://placeholt.it/100x100?text=what">
+    <div id="1" class="row container">
+        <img src="https://placehold.it/100x100?text=what">
         <h1>What We Offer</h1>
         <div class="col-3 circle">
-            <img src="https://placeholt.it/100x100?text=what">
+            <img src="https://placehold.it/100x100?text=what">
         </div>
         <div class="col-3 circle">
-            <img src="https://placeholt.it/100x100?text=what">
+            <img src="https://placehold.it/100x100?text=what">
         </div>
         <div class="col-3 circle">
-            <img src="https://placeholt.it/100x100?text=what">
+            <img src="https://placehold.it/100x100?text=what">
         </div>
         <div class="col-3 circle">
-            <img src="https://placeholt.it/100x100?text=what">
+            <img src="https://placehold.it/100x100?text=what">
         </div>
     </div>
 </div>

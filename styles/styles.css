@@ -162,15 +162,14 @@ img.sm{
     width:50%;
 }
 
-.circle{
-    padding:1em;
-    border: 1px solid #222;
-}
-
 .circle img{
-    width:100%;
+    width:75%;
+    padding:10%;
+    border: 1px solid #222;
+    border-radius: 50%;
+    transition:padding .25s;
 }
 
-.circle:hover{
-    padding:0px;
+.circle img:hover{
+    padding:0%;
 }
