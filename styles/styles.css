@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-html, div, span, ol, ul, li{
-
+html,
+div,
+span,
+ol,
+ul,
+li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,35 +16,34 @@ html, div, span, ol, ul, li{
     font-family: 'Roboto';
 }
 
-.parallax-o{
+.parallax-o {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-body{
-    background-color:#161925;
+body {
+    background-color: #161925;
     font-size: 12px;
 }
 
-h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size:4em;
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
 }
 
-h2{
+h2 {
     font-size: 2em;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h4 {
     font-size: 1em;
 }
 
-p{
-    font-family: 'Roboto',sans-serif;
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar-wrap {
@@ -147,7 +149,6 @@ img.sm {
     width: 32%;
 }
 
-
 .hidden {
     display: none;
 }
@@ -179,32 +180,32 @@ img.sm {
     height: 100vh;
 }
 
-.parallax-1{
+.parallax-1 {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Uss_iowa_bb-61_pr.jpg");
 }
 
-.parallax-2{
+.parallax-2 {
     background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/basketball-net.jpg");
 }
 
-.parallax-3{
+.parallax-3 {
     background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
 }
 
-.parallax-4{
+.parallax-4 {
     background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
 }
 
-.parallax-5{
+.parallax-5 {
     background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/02/spaceship-1839722_960_720.jpg");
 }
 
-.parallax-6{
+.parallax-6 {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rocky_Ring_of_Debris_Around_Vega.jpg");
 }
 
-#logo-wrap{
-    background-color: rgba(50,50,50,0.5);
+#logo-wrap {
+    background-color: rgba(50, 50, 50, 0.5);
     text-align: center;
 }
 
@@ -233,7 +234,7 @@ img.sm {
     float: left;
 }
 
-.button {
+.aboutbuttons {
     text-align: center;
     font-size: 1.5em;
     color: navy;
@@ -311,48 +312,48 @@ img.sm {
     margin-left: 5em;
 }
 
-.circle{
-    padding:2em;
+.circle {
+    padding: 2em;
 }
 
-.circle img{
-    width:75%;
-    padding:10%;
+.circle img {
+    width: 75%;
+    padding: 10%;
     border: 1px solid #222;
     border-radius: 50%;
-    transition:padding .25s;
+    transition: padding .25s;
 }
 
-.circle img:hover{
-    padding:0%;
+.circle img:hover {
+    padding: 0%;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.button{
+.button {
     width: 100%;
-    color:#ccc;
+    color: #ccc;
     background-color: aqua;
     border-radius: 0;
 }
 
-.button{
-    color:#ccc;
+.button {
+    color: #ccc;
     background-color: aqua;
     border-radius: 0;
     display: inline-block;
-    line-height:4em;
+    line-height: 4em;
     text-align: center;
-    height:4em;
-    margin:1em auto;
+    height: 4em;
+    margin: 1em auto;
 }
 
-#main-games div{
+#main-games div {
     text-align: center;
-    font-size:5em;
+    font-size: 5em;
     font-weight: bold;
     font-family: 'Roboto';
     line-height: 500px;
-  }
+}
