@@ -161,3 +161,16 @@ img.sm{
 #logo-wrap img{
     width:50%;
 }
+
+.circle{
+    padding:1em;
+    border: 1px solid #222;
+}
+
+.circle img{
+    width:100%;
+}
+
+.circle:hover{
+    padding:0px;
+}

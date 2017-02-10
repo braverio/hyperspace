@@ -14,7 +14,7 @@ include "$inc/header.php";
             <div id="logo-wrap">
                 <img src="/images/logo-med.png">
                 <div class="container">
-                    <h2 style="padding: 1em 0em 0em; color:#222;">Family entertainment center. Where not even the sky can limit you.</h2>
+                    <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
                 </div>
             </div>
             <div class="more">
@@ -22,7 +22,23 @@ include "$inc/header.php";
             </div>
         </div>
         </div>
-</div>
+    </div>
+    <div id="1" class="row">
+        <img src="https://placeholt.it/100x100?text=what">
+        <h1>What We Offer</h1>
+        <div class="col-3 circle">
+            <img src="https://placeholt.it/100x100?text=what">
+        </div>
+        <div class="col-3 circle">
+            <img src="https://placeholt.it/100x100?text=what">
+        </div>
+        <div class="col-3 circle">
+            <img src="https://placeholt.it/100x100?text=what">
+        </div>
+        <div class="col-3 circle">
+            <img src="https://placeholt.it/100x100?text=what">
+        </div>
+    </div>
 </div>
 
 <?
