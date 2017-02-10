@@ -193,13 +193,23 @@ img.sm{
 }
 
 .button{
-    width: 100%;
     color:#ccc;
     background-color: aqua;
     border-radius: 0;
     display: inline-block;
+    height:2em;
 }
 
 h1{
-    font-family: 'Montserrat'
+    font-family: 'Montserrat';
+    font-size:5em;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+p{
+    font-family: 'Roboto';
 }
