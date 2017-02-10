@@ -9,6 +9,6 @@ include "$inc/header.php";
     Home Page
 </div>
 
-<?
+<?php
 include "$inc/footer.php";    
 ?>
