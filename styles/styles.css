@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html, div, span, ol, ul, li{
     margin: 0;
@@ -21,6 +21,21 @@ html, div, span, ol, ul, li{
 
 body{
     background-color:#161925;
+    font-size: 12px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size:5em;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+p{
+    font-family: 'Roboto';
 }
 
 #navbar-wrap{
@@ -198,18 +213,4 @@ img.sm{
     border-radius: 0;
     display: inline-block;
     height:2em;
-}
-
-h1{
-    font-family: 'Montserrat';
-    font-size:5em;
-}
-
-h2{
-    font-size: 2em;
-    font-family: 'Roboto';
-}
-
-p{
-    font-family: 'Roboto';
 }
