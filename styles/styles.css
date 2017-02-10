@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 html, div, span, ol, ul, li{
     margin: 0;
 	padding: 0;
@@ -6,10 +9,10 @@ html, div, span, ol, ul, li{
 	vertical-align: baseline;
     list-style-type: none;
     color: white;
-    font-family: Tahoma;
+    font-family: 'Roboto';
 }
 
-.parallax{
+.parallax-o{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,6 +21,21 @@ html, div, span, ol, ul, li{
 
 body{
     background-color:#161925;
+    font-size: 12px;
+}
+
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size:4em;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Roboto',sans-serif;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
 }
 
 #navbar-wrap{
@@ -121,5 +139,121 @@ img.sm{
 }
 
 #content-wrap{
-    margin-top: 5em;
+}
+
+.hidden{
+    display: none;
+}
+
+.center-vertical{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.parallax-landing{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 2em;
+}
+
+.parallax-0{
+    background-image: url("/images/space-bg.jpg");
+    height: 100vh;
+}
+
+.parallax-1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Uss_iowa_bb-61_pr.jpg");
+}
+
+.parallax-2{
+    background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/basketball-net.jpg");
+}
+
+.parallax-3{
+    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+}
+
+.parallax-4{
+    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+}
+
+.parallax-5{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/02/spaceship-1839722_960_720.jpg");
+}
+
+.parallax-6{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rocky_Ring_of_Debris_Around_Vega.jpg");
+}
+
+#logo-wrap{
+    background-color: rgba(50,50,50,0.5);
+    text-align: center;
+}
+
+#logo-wrap img{
+    width:50%;
+}
+
+.circle{
+    padding:2em;
+}
+
+.circle img{
+    width:75%;
+    padding:10%;
+    border: 1px solid #222;
+    border-radius: 50%;
+    transition:padding .25s;
+}
+
+.circle img:hover{
+    padding:0%;
+}
+
+.container{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.button{
+    width: 100%;
+    color:#ccc;
+    background-color: aqua;
+    border-radius: 0;
+}
+
+.button{
+    color:#ccc;
+    background-color: aqua;
+    border-radius: 0;
+    display: inline-block;
+    line-height:4em;
+    text-align: center;
+    height:4em;
+    margin:1em auto;
+}
+
+.btn-wrap{
+
+}
+
+#main-games div{
+    text-align: center;
+    font-size:5em;
+    font-weight: bold;
+    font-family: 'Roboto';
+    line-height: 500px;
 }
