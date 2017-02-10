@@ -366,11 +366,13 @@ img.sm {
 }
 
 #imgText {
+    padding: 2em;
     position: absolute;
-    margin-left: 7.5em;
+    margin-left: 5.9em;
     text-align: center;
     top: 100px;
     height: 81%;
     width: 75.5%;
     background-color: rgba(5, 5, 5, 0.5);
+    font-size: 1.5em;
 }
