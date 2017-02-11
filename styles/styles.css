@@ -286,19 +286,22 @@ img.sm {
 .onegame {
     margin-left: 4em;
     margin-right: 4em;
+    border-radius: 25px;
     width: 85%;
     height: 15em;
     position: relative;
     margin-bottom: 4em;
+    background-color: #001f3f;
 }
 
 .onegameOG {
     margin-left: 4em;
-    margin-right: 4em;
-    width: 85%;
+    border-radius: 25px;
+    width: 74%;
     height: 15em;
     position: absolute;
     margin-bottom: 4em;
+    background-color: #001f3f;
 }
 
 .gameimg {
@@ -306,11 +309,14 @@ img.sm {
     height: 15em;
     float: left;
     margin-right: 2em;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 .nameanddes {
     text-align: left;
     margin-left: 5em;
+    margin-right: 1em;
 }
 
 .circle {
@@ -375,4 +381,16 @@ img.sm {
     width: 75.5%;
     background-color: rgba(5, 5, 5, 0.5);
     font-size: 1.5em;
+}
+
+#gamesdes {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.back {
+    background-color: #F7F3E8;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 10px;
 }
