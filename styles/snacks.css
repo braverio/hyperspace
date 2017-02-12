@@ -1,0 +1,22 @@
+.back {
+    background-color: #F7F3E8;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 10px;
+}
+
+#poprocks:hover {
+    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/poprocks.jpg");
+}
+
+#earthcookie:hover {
+    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/earthcookie.jpg");
+}
+
+#fruitrocket:hover {
+    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/poprocks.jpg");
+}
+
+#starcookie:hover {
+    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/starcookie.jpg");
+}
