@@ -5,52 +5,63 @@
     border-radius: 10px;
 }
 
-.pics{
+.pics {
     height: 15em;
 }
 
-div div:hover{
-    color:black;
-}
-
 #poprocks:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/poprocks.svg");
+    background-image: url("poprocks.svg");
+    color: black;
 }
 
 #earthcookie:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/earthcookie.svg");
+    background-image: url("earthcookie.svg");
+    color: black;
 }
 
 #fruitrocket:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/fruitrocket.svg");
+    background-image: url("fruitrocket.svg");
 }
 
 #starcookie:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/starcookie.svg");
+    background-image: url("starcookie.svg");
+    color: black;
 }
 
 #planetlollipop:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/planetlollipop.svg");
+    background-image: url("planetlollipop.svg");
+    color: black;
 }
 
 #galaxymuffin:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/galaxymuffin.svg");
+    background-image: url("galaxymuffin.svg");
 }
 
 #jello:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/jello.svg");
+    background-image: url("jello.svg");
+    color: black;
 }
 
 #astronaut:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/astronaut.svg");
+    background-image: url("astronaut.svg");
+    color: black;
 }
 
 #caramelapple:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/caramelapple.svg");
+    background-image: url("caramelapple.svg");
+    color: black;
 }
 
 #moonrock:hover {
-    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/moonrock.svg");
+    background-image: url("moonrock.svg");
 }
 
+#ics:hover {
+    background-image: url("ics.svg");
+    color: black;
+}
 
+#moonpie:hover {
+    background-image: url("moonpie.svg");
+    color: black;
+}
