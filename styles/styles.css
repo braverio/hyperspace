@@ -259,7 +259,7 @@ img.sm {
 }
 
 .container {
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
     max-width: 1500px;
     position: relative;
@@ -386,11 +386,5 @@ img.sm {
 #gamesdes {
     margin-left: 3em;
     margin-right: 3em;
-}
-
-.back {
-    background-color: #F7F3E8;
-    margin-left: 4em;
-    margin-right: 4em;
-    border-radius: 10px;
+    color: black;
 }
