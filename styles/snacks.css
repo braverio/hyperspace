@@ -5,18 +5,52 @@
     border-radius: 10px;
 }
 
+.pics{
+    height: 15em;
+}
+
+div div:hover{
+    color:black;
+}
+
 #poprocks:hover {
-    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/poprocks.jpg");
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/poprocks.svg");
 }
 
 #earthcookie:hover {
-    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/earthcookie.jpg");
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/earthcookie.svg");
 }
 
 #fruitrocket:hover {
-    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/poprocks.jpg");
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/fruitrocket.svg");
 }
 
 #starcookie:hover {
-    background-image: url("/Users/Joie/Hyperspace/hyperspace/images/starcookie.jpg");
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/starcookie.svg");
 }
+
+#planetlollipop:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/planetlollipop.svg");
+}
+
+#galaxymuffin:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/galaxymuffin.svg");
+}
+
+#jello:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/jello.svg");
+}
+
+#astronaut:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/astronaut.svg");
+}
+
+#caramelapple:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/caramelapple.svg");
+}
+
+#moonrock:hover {
+    background-image: url("/C:/Users/Joyce/Desktop/Joie/hyperspace/images/moonrock.svg");
+}
+
+
