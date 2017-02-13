@@ -48,6 +48,16 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+a, a:visited{
+    text-decoration: none;
+    color: #bbb;
+    transition: color .25s;
+}
+
+a:hover{
+    color:#fff;
+}
+
 .navoffset{
     height:4em;
 }
@@ -87,10 +97,7 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #bbb;
     display: block;
-    transition: color .25s;
 }
 
 nav a:hover {
@@ -174,6 +181,7 @@ img.sm {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width:100%;
 }
 
 .parallax {
@@ -191,7 +199,7 @@ img.sm {
 }
 
 .parallax-1 {
-    background-image: url("/images/gmaes/ship.jpg");
+    background-image: url("/images/games/ship.jpg");
 }
 
 .parallax-2 {
@@ -244,16 +252,6 @@ img.sm {
     float: left;
 }
 
-.aboutbuttons {
-    text-align: center;
-    font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: navy;
-    padding: 0.5em;
-    margin: 1em;
-    border-right: 1em solid #161925;
-}
-
 .foodbar {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.75);
@@ -264,8 +262,6 @@ img.sm {
 }
 
 .container {
-    margin-left: 20%;
-    margin-right: auto;
     max-width: 1600px;
     position: relative;
     text-align: center;
@@ -352,13 +348,6 @@ img.sm {
 }
 
 .button {
-    width: 100%;
-    color: #ccc;
-    background-color: aqua;
-    border-radius: 0;
-}
-
-.button {
     color: #ccc;
     background-color: aqua;
     border-radius: 0;
@@ -367,6 +356,13 @@ img.sm {
     text-align: center;
     height: 4em;
     margin: 1em auto;
+    background-color: #41AACA;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus{
+    background-color:#80CEB9;
 }
 
 #main-games div {
@@ -410,4 +406,10 @@ img.sm {
     margin-left: 4em;
     margin-right: 5em;
     border-radius: 10px;
+}
+
+#staff{
+    height:8em;
+    border-radius: 50%;
+    border: 2px #ccc solid;
 }

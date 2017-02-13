@@ -16,9 +16,9 @@ $(function(){
 <div clas="content-wrap container">
     <div class="tabs">
         <ul>
-            <li class="button"><a href="#snacks">Snack Bar</a></li>
-            <li class="button"><a href="#mains">Mains</a></li>
-            <li class="button"><a href="#sides">Sides</a></li>
+            <li class="button col-4"><a href="#snacks">Snack Bar</a></li>
+            <li class="button col-4"><a href="#mains">Mains</a></li>
+            <li class="button col-4"><a href="#sides">Sides</a></li>
         </ul>
         <div id="snacks">
             <h1>The Snack Bar</h1>
