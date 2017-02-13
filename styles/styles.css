@@ -32,13 +32,13 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 4em;
     text-align: center;
-    margin:1em;
+    margin: 1em;
 }
 
 h2 {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
-    margin:1em;
+    margin: 1em;
 }
 
 h4 {
@@ -49,18 +49,19 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-a, a:visited{
+a,
+a:visited {
     text-decoration: none;
     color: #bbb;
     transition: color .25s;
 }
 
-a:hover{
-    color:#fff;
+a:hover {
+    color: #fff;
 }
 
-.navoffset{
-    height:4em;
+.navoffset {
+    height: 4em;
 }
 
 #navbar-wrap {
@@ -85,8 +86,8 @@ nav ul {
     text-align: center;
 }
 
-nav > ul{
-    height:4em;
+nav>ul {
+    height: 4em;
 }
 
 nav li {
@@ -182,7 +183,7 @@ img.sm {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    width:100%;
+    width: 100%;
 }
 
 .parallax {
@@ -193,12 +194,14 @@ img.sm {
     height: 500px;
     margin-bottom: 2em;
     opacity: 0.5;
-    filter: alpha(opacity=50); /* Reverse compatible */
+    filter: alpha(opacity=50);
+    /* Reverse compatible */
 }
 
-.parallax:hover{
+.parallax:hover {
     opacity: 1;
-    filter: alpha(opacity=100); /* Reverse compatible */
+    filter: alpha(opacity=100);
+    /* Reverse compatible */
 }
 
 .parallax-0 {
@@ -336,7 +339,7 @@ img.sm {
 }
 
 .circle {
-    padding: 2em;
+    padding: 1em;
 }
 
 .circle img {
@@ -365,13 +368,14 @@ img.sm {
     background-color: #41AACA;
     font-size: 2em;
     font-weight: bold;
-    padding:0.25em;
-    width:100%;
+    padding: 0.25em;
+    width: 100%;
 }
 
-.button:hover, .button:focus{
+.button:hover,
+.button:focus {
     background-color: aqua;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #main-games div {
@@ -417,8 +421,8 @@ img.sm {
     border-radius: 10px;
 }
 
-#staff img{
-    height:8em;
+#staff img {
+    height: 8em;
     border-radius: 75%;
     border: 2px #ccc solid;
 }

@@ -64,16 +64,16 @@ include "$inc/header.php";
     <div class="row">
         <h1>Party Packages</h1>
         <div class="col-4">
+            <h2>Pluto Package</h2>
+            <p>Inlcudes one serving of a main and side per astronaut,unlimited drinks, and 30 asteroids</p>
+        </div>
+        <div class="col-4">
             <h2>Earth Package</h2>
-            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
+            <p>Inlcudes 2 servings of a main and one side per astronaut,unlimited drinks, and 50 asteroids</p>
         </div>
         <div class="col-4">
             <h2>Jupiter Package</h2>
-            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
-        </div>
-        <div class="col-4">
-            <h2>Mars Package</h2>
-            <p>dhfaso;fha o;fho;sdf ho;sdh</p>
+            <p>All-you-can-eat entrees and sides,unlimited drinks, and 100 asteroids</p>
         </div>
     </div>
     <div class="row btn-wrap">
@@ -90,7 +90,7 @@ include "$inc/header.php";
         <div class="parallax parallax-5">Spaceship Racing</div>
         <div class="parallax parallax-6">Asteroid Belt Maze</div>
     </div>
-    
+
     <a href="/games"><div class="row col-12 button">See More Games</div></a>
     
     
