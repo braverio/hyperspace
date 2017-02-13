@@ -89,8 +89,9 @@ include "$inc/header.php";
         <div class="parallax parallax-4">Air Hockey</div>
         <div class="parallax parallax-5">Spaceship Racing</div>
         <div class="parallax parallax-6">Asteroid Belt Maze</div>
-        <a href="/games"><div class="button">See More Games</div></a>
     </div>
+    
+    <a href="/games"><div class="button">See More Games</div></a>
     
     
 </div>
