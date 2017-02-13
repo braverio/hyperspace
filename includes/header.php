@@ -16,7 +16,7 @@
     <nav id="navbar">
         <ul>
             <li>
-                <a href="/"><img src="/images/logoslogansmall.png"></a>
+                <a href="/"><img src="/images/favicon.io"></a>
             </li>
             <li>
                 <a href="/about">About</a>
