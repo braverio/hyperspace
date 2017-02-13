@@ -4,9 +4,9 @@ require "../includes/common.php";
 $title = "Games";
 include "$inc/header.php";
 ?>
+<div class="navoffset"></div>
 
 <h1>Games</h1>
-    <div class="navoffset"></div>
     <div class="back">
         <div style="height:1em;"> </div>
         <h3 id="gamesdes">Test your skills with the various games that HyperSpace offers. Team up with your friends or make new ones as you trench across the galaxy! Ticket payouts vary with each game.</h3>

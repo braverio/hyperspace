@@ -63,7 +63,7 @@ nav {
 }
 
 nav img {
-    height: 3em;
+    height: 1.7em;
     vertical-align: middle;
 }
 
@@ -71,6 +71,7 @@ nav ul {
     list-style: none;
     background-color: #001f3f;
     text-align: center;
+    height:4em;
 }
 
 nav li {
