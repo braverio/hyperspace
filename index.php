@@ -91,7 +91,7 @@ include "$inc/header.php";
         <div class="parallax parallax-6">Asteroid Belt Maze</div>
     </div>
     
-    <a href="/games"><div class="button">See More Games</div></a>
+    <a href="/games"><div class="row col-12 button">See More Games</div></a>
     
     
 </div>

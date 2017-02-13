@@ -38,6 +38,7 @@ h1 {
 h2 {
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
+    margin:1em;
 }
 
 h4 {
@@ -191,6 +192,13 @@ img.sm {
     background-size: cover;
     height: 500px;
     margin-bottom: 2em;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* Reverse compatible */
+}
+
+.parallax:hover{
+    opacity: 1;
+    filter: alpha(opacity=100); /* Reverse compatible */
 }
 
 .parallax-0 {
@@ -413,5 +421,4 @@ img.sm {
     height:8em;
     border-radius: 75%;
     border: 2px #ccc solid;
-    padding: 1em;
 }

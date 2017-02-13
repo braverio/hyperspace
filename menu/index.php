@@ -14,11 +14,18 @@ $(function(){
 
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
+    
+    <h1>Our Food Items</h1>
+    
+    <div class="row">
+    
+    </div>
+    
     <div class="tabs">
-        <ul>
-            <li class="button col-4"><a href="#snacks">Snack Bar</a></li>
-            <li class="button col-4"><a href="#mains">Mains</a></li>
-            <li class="button col-4"><a href="#sides">Sides</a></li>
+        <ul class="row">
+            <a href="#mains"><li class="button col-4">Mains</li></a>
+            <a href="#sides"><li class="button col-4">Sides</li></a>
+            <a href="#sbacks"><li class="button col-4">Snack Bar</li></a>
         </ul>
         <div id="snacks">
             <h1>The Snack Bar</h1>
