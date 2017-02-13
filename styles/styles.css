@@ -397,7 +397,7 @@ img.sm {
 }
 
 .back {
-    background-color: papayawhip;
+    background-color: rgba(255, 255, 255, 0.75);
     margin-left: 4em;
     margin-right: 5em;
     border-radius: 10px;
