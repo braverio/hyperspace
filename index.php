@@ -23,27 +23,27 @@ include "$inc/header.php";
         </div>
     </div>
     <div id="1" class="row container">
-        <img src="https://placehold.it/100x100?text=what">
+        <img src="images/alien.png">
         <h1>What We Offer</h1>
         <div class="col-3 circle">
             <img src="images/family.jpeg">
             <h2>Family</h2>
-            <p>It's important to me that you're happy. Here's something that's fun. As trees get older they lose their chlorophyll. At home you have unlimited time.</p>
+            <p>Bringing family and friends together is our number one priority here at HyperSpace. We've created an atmosphere that will make you never want to leave.</p>
         </div>
         <div class="col-3 circle">
             <img src="images/party.jpeg">
             <h2>Parties</h2>
-            <p>There isn't a rule. You just practice and find out which way works best for you. There are no mistakes. You can fix anything that happens. It's beautiful - and we haven't even done anything to it yet. Let's do that again. And just raise cain.</p>
+            <p>We offer exclusive party and birthday packages so that you can enjoy unlimitless fun without all the hassle. Visit the reserve page to find out more!</p>
         </div>
         <div class="col-3 circle">
             <img src="images/foods.jpeg">
             <h2>Food</h2>
-            <p>You have to allow the paint to break to make it beautiful. Only eight colors that you need. In your world you have total and absolute power. There's not a thing in the world wrong with washing your brush. It's cold, but it's beautiful. Let's make some happy little clouds in our world.</p>
+            <p>HyperSpace offers top-quality dining. Not feeling like eating a whole meal? Check out our futuristic snack bar. You'll never leave our place with an empty stomach!</p>
         </div>
         <div class="col-3 circle">
             <img src="images/game.jpg">
             <h2>Games</h2>
-            <p>Everything is happy if you choose to make it that way. Anyone can paint. The little tiny Tim easels will let you down. Everyone is going to see things differently - and that's the way it should be.</p>
+            <p>Swing on by to load your asteroids to play our top-rated games! Check out the attractions below!</p>
         </div>
     </div>
     
