@@ -17,7 +17,7 @@ include "$inc/header.php";
                     <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
                 </div>            </div>
             <div class="container">
-                <a href="#1"><div class="button" style="width: 10em; height:4em;">Learn more</div></a>
+                <a href="#1"><div class="button" style="width: 10em;">Learn more</div></a>
             </div>
         </div>
         </div>

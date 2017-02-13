@@ -23,9 +23,9 @@ $(function(){
     
     <div class="tabs">
         <ul class="row">
-            <a href="#mains"><li class="button col-4">Mains</li></a>
-            <a href="#sides"><li class="button col-4">Sides</li></a>
-            <a href="#sbacks"><li class="button col-4">Snack Bar</li></a>
+            <li><div class="col-4"><a class="button" href="#mains">Mains</a></div></li>
+            <li><div class="col-4"><a class="button" href="#sides">Sides</a></div></li>
+            <li><div class="col-4"><a class="button" href="#snacks">Snack Bar</a></div></li>
         </ul>
         <div id="snacks">
             <h1>The Snack Bar</h1>
