@@ -26,6 +26,7 @@ li {
 body {
     background-color: #161925;
     font-size: 12px;
+    background-image: url(nebula.jpg);
 }
 
 h1 {
@@ -247,8 +248,8 @@ img.sm {
 
 .foodbar {
     width: 100%;
-    background-color: palegoldenrod;
-    color: navy;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #2D3B40;
     padding: 10px;
     font-size: 1.5em;
     position: absolute;
@@ -289,7 +290,6 @@ img.sm {
 
 .onegame {
     margin-left: 4em;
-    margin-right: 4em;
     border-radius: 25px;
     width: 85%;
     height: 15em;
@@ -391,4 +391,15 @@ img.sm {
     margin-left: 3em;
     margin-right: 3em;
     color: black;
+}
+
+.lastrow {
+    margin-bottom: 2.5em;
+}
+
+.back {
+    background-color: papayawhip;
+    margin-left: 4em;
+    margin-right: 5em;
+    border-radius: 10px;
 }
