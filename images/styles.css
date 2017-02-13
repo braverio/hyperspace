@@ -238,8 +238,8 @@ img.sm {
 .aboutbuttons {
     text-align: center;
     font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.5);
     color: navy;
+    background-color: beige;
     padding: 0.5em;
     margin: 1em;
     border-right: 1em solid #161925;
@@ -262,15 +262,7 @@ img.sm {
     text-align: center;
 }
 
-.whole {
-    margin-right: auto;
-    max-width: 1500px;
-    position: relative;
-    text-align: center;
-}
-
 .container:after,
-.whole:after,
 .row:after,
 .page:after {
     visibility: hidden;
