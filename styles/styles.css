@@ -47,6 +47,10 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.navoffset{
+    height:4em;
+}
+
 #navbar-wrap {
     height: 4em;
 }
@@ -182,27 +186,27 @@ img.sm {
 }
 
 .parallax-1 {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/Uss_iowa_bb-61_pr.jpg");
+    background-image: url("/images/gmaes/ship.jpg");
 }
 
 .parallax-2 {
-    background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/basketball-net.jpg");
+    background-image: url("/images/games/basketball-net.jpg");
 }
 
 .parallax-3 {
-    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+    background-image: url("/images/games/skeeball-main.jpg");
 }
 
 .parallax-4 {
-    background-image: url("https://c1.staticflickr.com/6/5535/10648527353_75749afa54_b.jpg");
+    background-image: url("/images/games/air-hockey-main.jpg")
 }
 
 .parallax-5 {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/15/02/spaceship-1839722_960_720.jpg");
+    background-image: url("/images/games/ufo.jpg");
 }
 
 .parallax-6 {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rocky_Ring_of_Debris_Around_Vega.jpg");
+    background-image: url("/images/games/asteroid.jpg");
 }
 
 #logo-wrap {

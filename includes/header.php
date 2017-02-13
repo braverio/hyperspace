@@ -23,7 +23,6 @@
                 <ul>
                     <li> <a href="/about">About Us</a> </li>
                     <li> <a href="/contact">Contact</a> </li>
-                    <li> <a href="/reviews">Reviews</a> </li>
                 </ul>
             </li>
             <li>
@@ -37,13 +36,9 @@
             <li>
                 <a href="/reserve">Reserve</a>
                 <ul>
-                    <li><a href="/reserve">General Admission</a></li>
                     <li><a href="/packages">Party Packages</a></li>
                     <li><a href="/packages#birthday">Birthday Packages</a></li>
                 </ul>
-            </li>
-            <li>
-                <a href="/eclub">Join our E-Club</a>
             </li>
         </ul>
     </nav>

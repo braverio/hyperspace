@@ -15,9 +15,8 @@ include "$inc/header.php";
                 <img src="/images/logo-med.png">
                 <div class="container">
                     <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
-                </div>
-            </div>
-            <div class="btn-wrap">
+                </div>            </div>
+            <div class="container">
                 <a href="#1"><div class="button" style="width: 10em; height:4em;">Learn more</div></a>
             </div>
         </div>
@@ -59,7 +58,6 @@ include "$inc/header.php";
             <h3><span class="bold">50 Asteroids</span> $9.99</h3>
             <h3><span class="bold">1 Asteroids</span> $0.25</h3>
         </div>
-        <a href="/manage"><div class="button">Manage my Space Card</div></a>
         
     </div>
     
@@ -79,8 +77,8 @@ include "$inc/header.php";
         </div>
     </div>
     <div class="row btn-wrap">
-        <a href="/packages"><div class="button col-6">Learn More</div></a>
-        <a href="/reserve"><div class="button col-6">Reserve Now</div></a>
+        <a href="/packages"><div class="col-6"><div class="button">Learn More</div></div></a>
+        <a href="/reserve"><div class="col-6"><div class="button">Reserve Now</div></div></a>
     </div>
     
     <div id="main-games" class="row">
@@ -91,16 +89,7 @@ include "$inc/header.php";
         <div class="parallax parallax-4">Air Hockey</div>
         <div class="parallax parallax-5">Spaceship Racing</div>
         <div class="parallax parallax-6">Asteroid Belt Maze</div>
-    </div>
-    
-    <div class="row">
-        <div class="col-6">
-            <h1>E-Club</h1>
-            <p>Join our E-club</p>
-        </div>
-        <div class="col-6">
-            <h1>Reviews</h1>
-        </div>
+        <a href="/games"><div class="button">See More Games</div></a>
     </div>
     
     
