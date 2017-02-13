@@ -26,22 +26,22 @@ include "$inc/header.php";
         <img src="https://placehold.it/100x100?text=what">
         <h1>What We Offer</h1>
         <div class="col-3 circle">
-            <img src="https://placehold.it/100x100?text=what">
+            <img src="images/family.jpeg">
             <h2>Family</h2>
             <p>It's important to me that you're happy. Here's something that's fun. As trees get older they lose their chlorophyll. At home you have unlimited time.</p>
         </div>
         <div class="col-3 circle">
-            <img src="https://placehold.it/100x100?text=what">
+            <img src="images/party.jpeg">
             <h2>Parties</h2>
             <p>There isn't a rule. You just practice and find out which way works best for you. There are no mistakes. You can fix anything that happens. It's beautiful - and we haven't even done anything to it yet. Let's do that again. And just raise cain.</p>
         </div>
         <div class="col-3 circle">
-            <img src="https://placehold.it/100x100?text=what">
+            <img src="images/foods.jpeg">
             <h2>Food</h2>
             <p>You have to allow the paint to break to make it beautiful. Only eight colors that you need. In your world you have total and absolute power. There's not a thing in the world wrong with washing your brush. It's cold, but it's beautiful. Let's make some happy little clouds in our world.</p>
         </div>
         <div class="col-3 circle">
-            <img src="https://placehold.it/100x100?text=what">
+            <img src="images/game.jpg">
             <h2>Games</h2>
             <p>Everything is happy if you choose to make it that way. Anyone can paint. The little tiny Tim easels will let you down. Everyone is going to see things differently - and that's the way it should be.</p>
         </div>
