@@ -26,7 +26,6 @@ li {
 body {
     background-color: #161925;
     font-size: 12px;
-    background-image: url(nebula.jpg);
 }
 
 h1 {
@@ -258,14 +257,14 @@ img.sm {
 .container {
     margin-left: 20%;
     margin-right: auto;
-    max-width: 1500px;
+    max-width: 1600px;
     position: relative;
     text-align: center;
 }
 
 .whole {
     margin-right: auto;
-    max-width: 1500px;
+    max-width: 1600px;
     position: relative;
     text-align: center;
 }
@@ -378,11 +377,11 @@ img.sm {
 #imgText {
     padding: 2em;
     position: absolute;
-    margin-left: 5.9em;
+    margin-left: 12.5%;
     text-align: center;
     top: 100px;
-    height: 81%;
-    width: 75.5%;
+    height: 82%;
+    width: 75%;
     background-color: rgba(5, 5, 5, 0.5);
     font-size: 1.5em;
 }
