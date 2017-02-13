@@ -17,11 +17,11 @@ include "$inc/header.php";
                 sky's the limit!. Check out our commodities below and be sure to make a reservation for any special events or for any large groups.</p>
         </div>
         <div class="col-3">
+            <h2>Our Team</h2>
             <div id="staff" class="circle">
-                <h2>Our Team</h2>
-                <img src="images/girl.jpg">
+                <img src="/images/girl.jpg">
                 <h3>Lisa Goodwin, Founder</h3>
-                <img src="images/guy.jpg">
+                <img src="/images/guy.jpg">
                 <h3>Henry Marksalv, Manager</h3>
             </div>
         </div>
@@ -33,7 +33,7 @@ include "$inc/header.php";
                 <div class="button">Browse our Menu</div>
             </a>
         </div>
-        <div class="col-6">>
+        <div class="col-6">
             <a href="/games">
                 <div class="button">Browse our Games</div>
             </a>
