@@ -12,10 +12,11 @@ include "$inc/header.php";
         <div class="center-vertical">
         <div class="hidden" id="logo">
             <div id="logo-wrap">
-                <img src="/images/logo-med.png">
+                <img src="/images/hyperspace.svg">
                 <div class="container">
                     <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
-                </div>            </div>
+                </div>            
+            </div>
             <div class="container">
                 <a href="#1"><div class="button" style="width: 10em;">Learn more</div></a>
             </div>
@@ -25,6 +26,7 @@ include "$inc/header.php";
     <div id="1" class="row container">
         <img src="images/alien.png">
         <h1>What We Offer</h1>
+        <p>At this family entertainment center, we strive to make you happy.</p>
         <div class="col-3 circle">
             <img src="images/family.jpeg">
             <h2>Family</h2>
@@ -66,14 +68,17 @@ include "$inc/header.php";
         <div class="col-4">
             <h2>Pluto Package</h2>
             <p>Inlcudes one serving of a main and side per astronaut,unlimited drinks, and 30 asteroids</p>
+            <p>Starting from $12.99*</p>
         </div>
         <div class="col-4">
             <h2>Earth Package</h2>
-            <p>Inlcudes 2 servings of a main and one side per astronaut,unlimited drinks, and 50 asteroids</p>
+            <p>Inlcudes 2 servings of a main and one side per astronaut,unlimited drinks, goodie bag, and 50 asteroids</p>
+            <p>Starting from $16.99*</p>
         </div>
         <div class="col-4">
             <h2>Jupiter Package</h2>
-            <p>All-you-can-eat entrees and sides,unlimited drinks, and 100 asteroids</p>
+            <p>All-you-can-eat entrees and sides,unlimited drinks, goodie bag, and 100 asteroids</p>
+            <p>Starting from $19.99*</p>
         </div>
     </div>
     <div class="row btn-wrap">
