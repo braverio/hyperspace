@@ -3,9 +3,9 @@
 
 <head>
     <title>Hyperspace &raquo; <?php echo $title?></title>
+    <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="icon" href="/images/a.png">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
@@ -26,10 +26,10 @@
                 </ul>
             </li>
             <li>
-                <a href="/attractions">What to Expect</a>
+                <a href="/games">What to Expect</a>
                 <ul>
-                    <li> <a href="/attractions">Games</a></li>
-                    <li> <a href="/menu">Menu</a></li>
+                    <li> <a href="/games">Games</a></li>
+                    <li> <a href="/menu#mains">Menu</a></li>
                     <li> <a href="/menu#snacks">Snack Bar</a></li>
                 </ul>
             </li>

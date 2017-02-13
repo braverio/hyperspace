@@ -1,7 +1,7 @@
 <?php
 require "../includes/common.php";
 
-$title = "Menu"
+$title = "Menu";
 include "$inc/header.php";
 ?>
 
