@@ -18,10 +18,14 @@ include "$inc/header.php";
         </div>
         <div class="col-3">
             <h2>Our Team</h2>
-            <div id="staff" class="circle">
-                <img src="/images/girl.jpg">
+            <div id="staff">
+                <div class="circle">
+                    <img src="/images/girl.jpg">
+                </div>
                 <h3>Lisa Goodwin, Founder</h3>
-                <img src="/images/guy.jpg">
+                <div class="circle">
+                    <img src="/images/guy.jpg">
+                </div>
                 <h3>Henry Marksalv, Manager</h3>
             </div>
         </div>

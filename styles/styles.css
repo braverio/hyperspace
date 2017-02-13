@@ -353,12 +353,12 @@ img.sm {
     display: inline-block;
     line-height: 2em;
     text-align: center;
-    height: 2em;
     margin: 1em auto;
     background-color: #41AACA;
     font-size: 2em;
     font-weight: bold;
     padding:0.25em;
+    width:100%;
 }
 
 .button:hover, .button:focus{
@@ -409,9 +409,9 @@ img.sm {
     border-radius: 10px;
 }
 
-#staff{
+#staff img{
     height:8em;
-    border-radius: 50%;
+    border-radius: 75%;
     border: 2px #ccc solid;
     padding: 1em;
 }
