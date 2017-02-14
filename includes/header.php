@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="/images/favicon.png">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="/scripts/scroll.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
@@ -17,7 +17,7 @@
     <nav id="navbar">
         <ul>
             <li>
-                <a href="/"><img src="/images/favicon.ico"></a>
+                <a href="/"><img src="/images/favicon.png"></a>
             </li>
             <li>
                 <a href="/about">About</a>
@@ -43,3 +43,22 @@
         </ul>
     </nav>
     </div>
+    
+    <div class="navoffset"></div>
+    
+    <?php
+    session_start();
+    if(isset($_SESSION['flash'])){?>
+    
+    <div class="row container">
+        <h2>
+            <?php
+                echo $_SESSION['flash'];
+            ?>
+        </h2>
+    </div>
+    
+    <?php
+        $_SESSION['flash'] = "";
+        }
+    ?>

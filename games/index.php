@@ -4,8 +4,6 @@ require "../includes/common.php";
 $title = "Games";
 include "$inc/header.php";
 ?>
-<div class="navoffset"></div>
-
 <h1>Games</h1>
     <div class="back">
         <div style="height:1em;"> </div>
