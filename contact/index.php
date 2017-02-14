@@ -1,4 +1,9 @@
 <?php
+require "includes/common.php";
+
+$title = "Contact";
+include "$inc/header.php";
+
 
 session_start();
 if (empty($_SESSION['token'])) {

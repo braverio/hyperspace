@@ -7,7 +7,7 @@ if (isset($_POST["subject"]))
 
 $message = $_POST["message"];
 $message = "Message from $from ($email):\n\n" . $message;
-$location = "Location: http://bready.xyz/contact/index.php";
+$location = "Location: http://hyperspace.club/contact/index.php";
 
 // Session checks
 if (empty($_SESSION['token']) || empty($_POST['token'])) {
