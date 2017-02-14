@@ -358,9 +358,14 @@ img.sm {
     font-weight: bold;
 }
 
+.center-text{text-align: center;}
+.left-text{text-align: left;}
+.right-text{text-align: right;}
+.justify-text{text-align: justify;}
+
 .button {
     color: #ccc;
-    border-radius: 0;
+    border: 0;
     display: inline-block;
     line-height: 2em;
     text-align: center;
@@ -425,4 +430,24 @@ img.sm {
     height: 8em;
     border-radius: 75%;
     border: 2px #ccc solid;
+}
+
+.form-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-container input, .form-container textarea{
+    width: 100%;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-family: "Overpass", sans-serif;
+    resize: none;
+}
+
+input[type="submit"]{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    cursor: pointer;
 }

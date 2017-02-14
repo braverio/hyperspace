@@ -25,7 +25,7 @@ if (empty($_SESSION['token'])) {
     </div>
     <div class="col-6">
     <div class="form-container">
-        <form action="contact.php" method="POST">
+        <form action="process.php" method="POST">
 			<input type="hidden" name="token" value="<?php print $_SESSION['token']; ?>" />
             <h2>Name</h2><input type="text" name="from"><br><br>
             <h2>Email</h2><input type="text" name="email"><br><br>
