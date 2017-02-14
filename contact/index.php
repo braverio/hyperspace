@@ -1,5 +1,5 @@
 <?php
-require "includes/common.php";
+require "../includes/common.php";
 
 $title = "Contact";
 include "$inc/header.php";

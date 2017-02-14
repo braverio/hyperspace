@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="/images/favicon.svg">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="/scripts/scroll.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
@@ -17,7 +17,7 @@
     <nav id="navbar">
         <ul>
             <li>
-                <a href="/"><img src="/images/favicon.png"></a>
+                <a href="/"><img src="/images/favicon.svg"></a>
             </li>
             <li>
                 <a href="/about">About</a>
