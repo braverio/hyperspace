@@ -59,12 +59,12 @@ function refreshDates(){
 
 $(function(){
     $("#room").change(function(){
-        var in = $(this).val();
+        var input = $(this).val();
         
         $("#datepicker").removeAttr("disabled");
         $("#number").removeAttr("disabled");
-        disabled_dates = getDatesByRoom(in);
-        $("#number").attr("max",max_people[in-1]);
+        disabled_dates = getDatesByRoom(input);
+        $("#number").attr("max",max_people[input-1]);
         refreshDates();
     });
     
