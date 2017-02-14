@@ -235,10 +235,11 @@ img.sm {
 #logo-wrap {
     background-color: rgba(50, 50, 50, 0.5);
     text-align: center;
+    padding:1em;
 }
 
 #logo-wrap img {
-    width: 50%;
+    width: 40%;
 }
 
 .limgwa {

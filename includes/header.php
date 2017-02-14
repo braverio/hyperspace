@@ -30,8 +30,7 @@
                 <a href="/games">What to Expect</a>
                 <ul>
                     <li> <a href="/games">Games</a></li>
-                    <li> <a href="/menu#mains">Menu</a></li>
-                    <li> <a href="/menu#snacks">Snack Bar</a></li>
+                    <li> <a href="/menu">Menu</a></li>
                 </ul>
             </li>
             <li>
