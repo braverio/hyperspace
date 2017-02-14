@@ -1,6 +1,6 @@
 var disabled_dates;
 var disabled_times;
-var max_people = {25,55,100}
+var max_people = {25,55,100};
 
 function initDP(){
         $("#datepicker").datepicker({
