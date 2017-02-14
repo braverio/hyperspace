@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
     <link rel="icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="/scripts/scroll.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
@@ -35,10 +36,6 @@
             </li>
             <li>
                 <a href="/reserve">Reserve</a>
-                <ul>
-                    <li><a href="/packages">Party Packages</a></li>
-                    <li><a href="/packages#birthday">Birthday Packages</a></li>
-                </ul>
             </li>
         </ul>
     </nav>

@@ -1,6 +1,6 @@
 <?php
 
-start_session();
+session_start();
 
 $_SESSION['flash'] = "Success! Please check your email to confirm your reservation";
 

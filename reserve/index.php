@@ -49,7 +49,7 @@ include "$inc/header.php";
                 <option value="2">5PM to 8PM</option>
             </select>
             <h2>Package</h2>
-            <select id="package" name="package" disabled required>
+            <select id="package" name="package" required>
                 <option value="1" data-price="17.99">Pluto</option>
                 <option value="2" data-price="21.99">Earth</option>
                 <option value="3" data-price="25.99">Jupiter</option>
