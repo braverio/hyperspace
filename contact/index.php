@@ -4,15 +4,13 @@ require "../includes/common.php";
 $title = "Contact";
 include "$inc/header.php";
 
-
-session_start();
 if (empty($_SESSION['token'])) {
 	$_SESSION['token'] = md5(mt_rand(1,1000000));
 }
 ?>
 
 
-<div class="container">
+<div class="container row">
     <div class="col-6">
         <h1>Contact us</h1><br>
         <p>For any questions, comments, or concerns, please use the contact form below. If, however you would like tomake  a reservation at our restaurant, use the <a href="/reservations/">reservations form</a> instead.</p>

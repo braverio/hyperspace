@@ -1,5 +1,4 @@
 <?php
-session_start();
 $from = $_POST["from"];
 $email = $_POST["email"];
 if (isset($_POST["subject"]))
