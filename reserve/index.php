@@ -1,14 +1,14 @@
 <?php
 require "../includes/common.php";
 
-$title = "Home";
+$title = "Reserve";
 include "$inc/header.php";
 ?>
 
 <script src="/scripts/reserve.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 
-<div class="container row">
+<div class="container">
     <div class="col-6">
         <div class="row">
             <h1>Reserve Now!</h1>
