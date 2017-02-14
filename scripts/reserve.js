@@ -7,7 +7,7 @@ function initDP(){
         $("#datepicker").datepicker({
         beforeShowDay: function(date){
             var s = $.datepicker.formatDate('mm/dd/yyyy');
-            return [taken.indexOf(s) == -1]
+            return [disabledTimes.indexOf(s) == -1]
         },
         minDate:"+2D",
         maxDate:"+2M",

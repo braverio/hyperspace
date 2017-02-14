@@ -18,11 +18,16 @@ include "$inc/header.php";
         </div>
         <div class="row">
             <h2>Daily Time Slots Available</h2>
-            <p class="center-text">12pm to 4pm<br>5pm to 8pm/p>
+            <p class="center-text">12pm to 4pm<br>5pm to 8pm</p>
         </div>
         <div class="row">
             <h2>Party Rooms Available</h2>
             <p class="center-text">Moon Room: 25 max<br>Sun Room: 55 max<br>Galaxy Room: 100 max<br></p>
+        </div>
+        <div class="row">
+            <h2>Party Packages (price/person)</h2>
+            <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
+            <a href="/packages"><div class="button">View Packages</div></a>
         </div>
     </div>
     <div class="col-6 form-container">
