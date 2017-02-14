@@ -3,7 +3,6 @@
 
 <head>
     <title>Hyperspace &raquo; <?php echo $title?></title>
-    <link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">

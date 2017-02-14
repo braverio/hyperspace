@@ -5,6 +5,7 @@ $title = "Reserve";
 include "$inc/header.php";
 ?>
 
+<link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
 <script src="/scripts/reserve.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 
