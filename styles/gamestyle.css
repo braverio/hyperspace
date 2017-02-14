@@ -5,41 +5,44 @@
     background-size: cover;
     height: 500px;
     margin-bottom: 2em;
-    opacity: 1;
-    filter: alpha(opacity=50);
     /* Reverse compatible */
 }
 
+.para:after {
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .para-1 {
-    background-image: url("games/tossintospace.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/tossintospace.jpg");
 }
 
 .para-2 {
-    background-image: url("games/shooting.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/shooting.jpg");
 }
 
 .para-3 {
-    background-image: url("games/basketball-net.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/basketball-net.jpg");
 }
 
 .para-5 {
-    background-image: url("games/skeeball-main.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/skeeball-main.jpg");
 }
 
 .para-6 {
-    background-image: url("games/air-hockey-main.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/air-hockey-main.jpg");
 }
 
 .para-7 {
-    background-image: url("games/asteroid.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/asteroid.jpg");
 }
 
 .para-8 {
-    background-image: url("games/racing.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/racing.jpg");
 }
 
 .para-9 {
-    background-image: url("games/maze.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("games/maze.jpg");
 }
 
 #main div {
@@ -52,6 +55,7 @@
     padding-top: 2em;
     padding-right: 1em;
     padding-left: 1em;
+    text-shadow: 2px 2px #222;
 }
 
 #des {
