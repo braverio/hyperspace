@@ -20,7 +20,7 @@ function initDP(){
 }
 
 function getDatesByRoom(room){
-    $.ajax('/reserve/data.php?query=datesByRoom',{
+    /**$.ajax('/reserve/data.php?query=datesByRoom',{
         data:{'room':room},
         method:POST,
         complete:function(response,status){
@@ -30,12 +30,13 @@ function getDatesByRoom(room){
                 alert('An unknown error occured!');
             }
         }
-    })
+    });*/
+    return["02/17/2017"];
     
 }
 
 function getTimesByDateRoom(date,room){
-    $.ajax('/reserve/data.php?query=timesByDateRoom',{
+    /**$.ajax('/reserve/data.php?query=timesByDateRoom',{
         data:{
             'room':room,
             'date':date,
@@ -48,7 +49,8 @@ function getTimesByDateRoom(date,room){
                 alert('An unknown error occured!');
             }
         }
-    })
+    });*/
+    return [];
     
 }
 
