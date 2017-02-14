@@ -21,6 +21,8 @@ if ($_SESSION['token'] != $_POST['token']) {
     $_SESSION['flash'] = "Sent!";
 } 
 else{
-    $_SESSION['flash'] = $location . "Please enter a valid email address";
+    $_SESSION['flash'] = "Please enter a valid email address";
 }
+
+header(location);
 ?>
