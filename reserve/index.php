@@ -6,6 +6,7 @@ include "$inc/header.php";
 ?>
 
 <script src="/scripts/reserve.js"></script>
+<script src="/scripts/jquery-ui/jquery-ui.min.css"></script>
 
 <div class="container">
     <div class="col-6">
