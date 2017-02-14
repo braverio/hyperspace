@@ -5,6 +5,8 @@ $title = "Home";
 include "$inc/header.php";
 ?>
 
+<script src="/scripts/reserve.js"></script>
+
 <div class="container">
     <div class="col-6">
         <div class="row">
