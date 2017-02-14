@@ -8,7 +8,7 @@ include "$inc/header.php";
 <script src="/scripts/reserve.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 
-<div class="container">
+<div class="container row">
     <div class="col-6">
         <div class="row">
             <h1>Reserve Now!</h1>
@@ -48,11 +48,11 @@ include "$inc/header.php";
                 <option value="1">12PM to 4PM</option>
                 <option value="2">5PM to 8PM</option>
             </select>
-            <h2>Pacakge</h2>
+            <h2>Package</h2>
             <select id="package" name="package" disabled required>
-                <option value="1">Pluto</option>
-                <option value="2">Earth</option>
-                <option value="3">Jupiter</option>
+                <option value="1" data-price="17.99">Pluto</option>
+                <option value="2" data-price="21.99">Earth</option>
+                <option value="3" data-price="25.99">Jupiter</option>
             </select>
         <p>Upon submission, you will be emailed a message which you will have to click through in order to confirm your reservation. If you do not receive it within a few minutes, be sure to check your spam folder.</p>
         <input type="submit" value="Reserve Now!" class="button">

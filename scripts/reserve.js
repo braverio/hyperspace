@@ -1,5 +1,5 @@
-var disabledDates;
-var disabledTimes;
+var disabledDates = [];
+var disabledTimes = [];
 var maxPeople = [5,55,100];
 var dpActive = false;
 
@@ -53,6 +53,10 @@ function getTimesByDateRoom(date,room){
         }
     });*/
     return [];
+    
+}
+
+function getPrice(pacakge, number){
     
 }
 
