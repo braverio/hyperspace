@@ -24,5 +24,5 @@ else{
     $_SESSION['flash'] = "Please enter a valid email address";
 }
 
-header(location);
+header($location);
 ?>
