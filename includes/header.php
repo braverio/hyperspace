@@ -3,11 +3,11 @@
 
 <head>
     <title>Hyperspace &raquo; <?php echo $title?></title>
+    <link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
     <link rel="icon" href="/images/favicon.svg">
-    <link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="/scripts/scroll.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
