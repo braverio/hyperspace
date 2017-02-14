@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $from = $_POST["from"];
 $email = $_POST["email"];
 if (isset($_POST["subject"]))
@@ -17,7 +19,7 @@ if ($_SESSION['token'] != $_POST['token']) {
 	$_SESSION['flash'] = "An authentication error occured";
 } else if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	$_SESSION['token'] = ""; // Invalidate token.
-    mail ("bnguyen170+bready@gmail.com", $subject, $message);
+    mail ("bnguyen170+hype@gmail.comI ", $subject, $message);
     $_SESSION['flash'] = "Sent!";
 } 
 else{
