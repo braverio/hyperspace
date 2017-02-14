@@ -44,8 +44,6 @@
     </nav>
     </div>
     
-    <div class="navoffset"></div>
-    
     <?php
     session_start();
     if(isset($_SESSION['flash'])){?>

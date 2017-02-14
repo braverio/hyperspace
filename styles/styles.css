@@ -47,6 +47,8 @@ h4 {
 
 p {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em;
+    text-align: left;
 }
 
 a,
