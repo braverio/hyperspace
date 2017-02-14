@@ -1,0 +1,61 @@
+.para {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 2em;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    /* Reverse compatible */
+}
+
+.para-1 {
+    background-image: url("games/tossintospace.jpg");
+}
+
+.para-2 {
+    background-image: url("games/shooting.jpg");
+}
+
+.para-3 {
+    background-image: url("games/basketball-net.jpg");
+}
+
+.para-5 {
+    background-image: url("games/skeeball-main.jpg");
+}
+
+.para-6 {
+    background-image: url("games/air-hockey-main.jpg");
+}
+
+.para-7 {
+    background-image: url("games/asteroid.jpg");
+}
+
+.para-8 {
+    background-image: url("games/racing.jpg");
+}
+
+.para-9 {
+    background-image: url("games/maze.jpg");
+}
+
+#main div {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#des {
+    margin-left: 4em;
+    margin-right: 5em;
+    text-align: center;
+}

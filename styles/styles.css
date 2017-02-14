@@ -428,3 +428,8 @@ img.sm {
     border-radius: 75%;
     border: 2px #ccc solid;
 }
+
+.black-overlay .vertical-center h1,
+.black-overlay .vertical-center h3 {
+    text-shadow: 3px 3px #222;
+}
