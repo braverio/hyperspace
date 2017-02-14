@@ -1,6 +1,7 @@
-var disabled_dates;
-var disabled_times;
-var max_people = [5,55,100];
+var disabledDates;
+var disabledTimes;
+var maxPeople = [5,55,100];
+var dpActive = false;
 
 function initDP(){
         $("#datepicker").datepicker({
@@ -12,11 +13,12 @@ function initDP(){
         maxDate:"+2M",
         onSelect:function(){
             var input = $(this).val();
-            disabled_times = getTimesByDateRoom(input,$("#room").val());
+            disabledTimes = getTimesByDateRoom(input,$("#room").val());
             $("#time").removeAttr("disabled");
             
         }
     });
+    dpActive = true;
 }
 
 function getDatesByRoom(room){
@@ -55,7 +57,7 @@ function getTimesByDateRoom(date,room){
 }
 
 function refreshDates(){
-    $("#datepicker").datepicker("remove");
+    if(dpActive)$("#datepicker").datepicker("remove");
     initDP();
 }
 
@@ -65,8 +67,8 @@ $(function(){
         
         $("#datepicker").removeAttr("disabled");
         $("#number").removeAttr("disabled");
-        disabled_dates = getDatesByRoom(input);
-        $("#number").attr("max",max_people[input-1]);
+        disabledDates = getDatesByRoom(input);
+        $("#number").attr("max",maxPeople[input-1]);
         refreshDates();
     });
     
