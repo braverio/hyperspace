@@ -179,6 +179,20 @@ img.sm {
     transform: translateY(-50%);
 }
 
+.black {
+    background: rgba(0, 0, 0, .33);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-shadow: 3px 3px #222;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .parallax-landing {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -193,15 +207,9 @@ img.sm {
     background-attachment: fixed;
     background-size: cover;
     height: 500px;
-    margin-bottom: 2em;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    /* Reverse compatible */
-}
-
-.parallax:hover {
-    opacity: 1;
-    filter: alpha(opacity=100);
+    margin-bottom: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
     /* Reverse compatible */
 }
 
@@ -232,6 +240,142 @@ img.sm {
 
 .parallax-6 {
     background-image: url("/images/games/asteroid.jpg");
+}
+
+.parallax-7 {
+    background-image: url("../images/food/poprocks.jpg");
+}
+
+.parallax-8 {
+    background-image: url("../images/food/earthcookie.jpg");
+}
+
+.parallax-9 {
+    background-image: url("../images/food/fruit.jpeg");
+}
+
+.parallax-10 {
+    background-image: url("../images/food/starcookie.jpg");
+}
+
+.parallax-11 {
+    background-image: url("../images/food/lollipop.jpg");
+}
+
+.parallax-12 {
+    background-image: url("../images/food/muffin.jpg");
+}
+
+.parallax-13 {
+    background-image: url("../images/food/jello.jpg");
+}
+
+.parallax-14 {
+    background-image: url("../images/food/astronaut.jpg");
+}
+
+.parallax-15 {
+    background-image: url("../images/food/apple.jpg");
+}
+
+.parallax-16 {
+    background-image: url("../images/food/moonrock.jpg");
+}
+
+.parallax-17 {
+    background-image: url("../images/food/icecream.jpg");
+}
+
+.parallax-18 {
+    background-image: url("../images/food/moonpie.jpg");
+}
+
+.parallax-19 {
+    background-image: url("../images/food/rocketdog.jpg");
+}
+
+.parallax-20 {
+    background-image: url("../images/food/pizza.jpg");
+}
+
+.parallax-21 {
+    background-image: url("../images/food/chicken.jpg");
+}
+
+.parallax-22 {
+    background-image: url("../images/food/burger.jpeg");
+}
+
+.parallax-23 {
+    background-image: url("../images/food/sandwich.jpg");
+}
+
+.parallax-24 {
+    background-image: url("../images/food/pasta.jpeg");
+}
+
+.parallax-25 {
+    background-image: url("../images/food/fries.jpeg");
+}
+
+.parallax-26 {
+    background-image: url("../images/food/onionring'.jpg");
+}
+
+.parallax-27 {
+    background-image: url("../images/food/crescentroll.jpg");
+}
+
+.parallax-28 {
+    background-image: url("../images/food/salad.jpeg");
+}
+
+.parallax-29 {
+    background-image: url("../images/food/soup.jpeg");
+}
+
+.parallax-30 {
+    background-image: url("../images/games/tossingintospace.jpg");
+}
+
+.parallax-31 {
+    background-image: url("../images/games/shooting.jpg");
+}
+
+.parallax-32 {
+    background-image: url("../images/games/bball.jpg");
+}
+
+.parallax-33 {
+    background-image: url("../images/games/skeeball-main.jpg");
+}
+
+.parallax-34 {
+    background-image: url("../images/games/air-hockey-main.jpg");
+}
+
+.parallax-35 {
+    background-image: url("../images/games/asteroid.jpg");
+}
+
+.parallax-36 {
+    background-image: url("../images/games/racing.jpg");
+}
+
+.parallax-37 {
+    background-image: url("../images/games/maze.jpg");
+}
+
+.foood div {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.gaaa div {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
 }
 
 #logo-wrap {
@@ -269,9 +413,10 @@ img.sm {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.75);
     color: #2D3B40;
-    padding: 10px;
     font-size: 1.5em;
     position: absolute;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 .container {
