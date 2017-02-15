@@ -9,29 +9,29 @@ include "$inc/header.php";
 <script src="/scripts/reserve.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 
-<div class="container">
+<div class="container row">
     <div class="col-6">
-        <div class="row">
+        <div>
             <h1>Reserve Now!</h1>
             <h2>Planning a Party?</h2>
             <p>Please fill out the form on this page in order to book your party. Reservations must be placed 2 days in advance in order to allow our team time to set up.</p>
             <p>For more information, please call 1.497.377.7223</p>
         </div>
-        <div class="row">
+        <div>
             <h2>Daily Time Slots Available</h2>
             <p class="center-text">12pm to 4pm<br>5pm to 8pm</p>
         </div>
-        <div class="row">
+        <div>
             <h2>Party Rooms Available</h2>
             <p class="center-text">Moon Room: 25 max<br>Sun Room: 55 max<br>Galaxy Room: 100 max<br></p>
         </div>
-        <div class="row">
+        <div>
             <h2>Party Packages (price/person)</h2>
             <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
         </div>
     </div>
     <div class="col-6 form-container">
-        <form class="row" method="post" action="process.php">
+        <form method="post" action="process.php">
             <h2>Name</h2><input type="text" name="name" required placeholder="Name of adult in charge"><br><br>
             <h2>Email</h2><input type="email" name="email" required placeholder="Email to send confirmation"><br><br>
             <h2>Phone</h2><input type="tel" name="phone" placeholder="Optional"><br><br>

@@ -13,7 +13,7 @@ if (empty($_SESSION['token'])) {
 <div class="container row">
     <div class="col-6">
         <h1>Contact us</h1><br>
-        <p>For any questions, comments, or concerns, please use the contact form below. If, however you would like tomake  a reservation at our restaurant, use the <a href="/reservations/">reservations form</a> instead.</p>
+        <p>For any questions, comments, or concerns, please use the contact form below. If, however you would like tomake  a reservation at our restaurant, use the <a href="/reserve/">reservations form</a> instead.</p>
         <p>Phone calls at 1.HYP.ERS.PACE or 1.497.377.7223 during our operating hours are also welcome.</p>
         
         <p>You may also send a letter to or come visit us at 13 Apollo Rd, Cypress, CA 90630</p>
