@@ -19,8 +19,7 @@ if (empty($_SESSION['token'])) {
         <p>You may also send a letter to or come visit us at 13 Apollo Rd, Cypress, CA 90630</p>
         
         <h2>Hours of Operation</h2>
-        <p class="center-text">Monday to Thursday: 11AM to 10PM<br>Sunday 8AM to 6PM</p>
-        <p class="center-text">Friday to Sunday: 9AM to 11PM<br>Sunday 8AM to 6PM</p>
+        <p class="center-text">Monday to Thursday: 11AM to 10PM<br>Friday to Sunday: 9AM to 11PM</p>
     </div>
     <div class="col-6">
     <div class="form-container">
