@@ -202,7 +202,7 @@ img.sm {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 6em;
+    height: 20rem;
     margin-bottom: 4em;
 }
 
@@ -529,7 +529,7 @@ img.sm {
     font-size: 5em;
     font-weight: bold;
     font-family: 'Roboto';
-    line-height: 6em;
+    line-height: 20rem;
 }
 
 .image {

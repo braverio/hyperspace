@@ -50,7 +50,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/gmaes">Games</a></li>
+            <li><a href="/games">Games</a></li>
             <li><a href="/menu">Menu</a></li>
             <li><a href="/reserve">Reservations</a></li>
 	   </ul>
