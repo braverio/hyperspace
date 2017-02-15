@@ -24,7 +24,7 @@ include "$inc/header.php";
         </div>
     </div>
     <div id="1" class="row container">
-        <img src="images/alien.png">
+        <img style="height:5em;" src="images/alien.png">
         <h1>What We Offer</h1>
         <p>At this family entertainment center, we strive to make you happy.</p>
         <div class="col-3 circle">
