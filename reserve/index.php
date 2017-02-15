@@ -41,7 +41,7 @@ include "$inc/header.php";
                 <option value="2" data-max=55>Sun Room</option>
                 <option value="3" data-max=100>Galaxy Room</option>
             </select>
-            <h2>Number of Atronauts</h2><input id="number" type="number" name="guests" min="6" max="100" required placeholder="6 person minimum to reserve a party"><br><br>
+            <h2>Number of Atronauts</h2><input id="number" type="number" name="guests" min="6" max="25" required placeholder="6 person minimum to reserve a party"><br><br>
             <h2 id="date">Date</h2><input type="text" name="day" id="datepicker" required placeholder="Choose a date to see available times"><br><br>
             <h2>Times</h2>
             <select id="time" name="time" disabled required>

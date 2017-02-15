@@ -66,6 +66,8 @@ function refreshDates(){
 }
 
 $(function(){
+    initDP();
+    
     $("#room").change(function(){
         var input = $(this).val();
         
