@@ -141,7 +141,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Pizza (Slice/Whole)</h1>
-                                <h2>$2.49/$5.99-$19.99</h2>
+                                <h2>$2.49 / $5.99 - $19.99</h2>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Chicken Strips/Wings</h1>
-                                <h2>$6.99-$11.99</h2>
+                                <h2>$6.99 - $11.99</h2>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Space Burgers/Sliders</h1>
-                                <h2>$3.99-$5.49</h2>
+                                <h2>$3.99 - $5.49</h2>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Pasta (S/M/L)</h1>
-                                <h2>$5.99-$12.99</h2>
+                                <h2>$5.99 - $12.99</h2>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>French Fries (S/M/L)</h1>
-                                <h2>$1.00-$1.89</h2>
+                                <h2>$1.00 - $1.89</h2>
                             </div>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Onion Rings (S/M/L)</h1>
-                                <h2>$1.00-$1.89</h2>
+                                <h2>$1.00 - $1.89</h2>
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@ $(function(){
                         <div class="black">
                             <div class="vertical-center">
                                 <h1>Salad (S/M/L)</h1>
-                                <h2>$2.99-$5.99</h2>
+                                <h2>$2.99 - $5.99</h2>
                             </div>
                         </div>
                     </div>
