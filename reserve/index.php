@@ -28,7 +28,6 @@ include "$inc/header.php";
         <div class="row">
             <h2>Party Packages (price/person)</h2>
             <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
-            <a href="/packages"><div class="button">View Packages</div></a>
         </div>
     </div>
     <div class="col-6 form-container">
