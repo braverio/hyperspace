@@ -140,12 +140,13 @@ nav li ul li {
 
 footer p {
     padding-bottom: 0px;
+    text-align: center;
 }
 
 footer {
     width: 100%;
     color: #eee;
-    background: #222;
+    background: #6D676E;
     margin-top: 1em;
     padding: 2em 0em;
     text-align: center;
@@ -414,7 +415,6 @@ img.sm {
 
 .container {
     max-width: 100vw;
-    position: relative;
     text-align: center;
 }
 
@@ -591,30 +591,4 @@ input[type="submit"]{
     font-size: 2em;
     padding: 0.5em;
     cursor: pointer;
-}
-
-footer p{
-    padding-bottom: 0px;
-    text-align: center;
-}
-footer{
-    width: 100%;
-    color: #eee;
-    background: #6D676E;
-    margin-top: 1em;
-    padding: 2em 0em;
-    text-align: center;
-}
-
-footer img{
-    height: 3.5em;
-    display: inline;
-    transition: opacity .25s;
-}
-footer img:hover{
-    opacity: .75;
-}
-
-img.sm{
-    width: 32%;
 }

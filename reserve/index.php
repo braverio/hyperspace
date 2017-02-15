@@ -31,7 +31,7 @@ include "$inc/header.php";
         </div>
     </div>
     <div class="col-6 form-container">
-        <form method="post" action="process.php">
+        <form class="row" method="post" action="process.php">
             <h2>Name</h2><input type="text" name="name" required placeholder="Name of adult in charge"><br><br>
             <h2>Email</h2><input type="email" name="email" required placeholder="Email to send confirmation"><br><br>
             <h2>Phone</h2><input type="tel" name="phone" placeholder="Optional"><br><br>
@@ -58,6 +58,7 @@ include "$inc/header.php";
         <input type="submit" value="Reserve Now!" class="button">
         </form>
     </div>
+</div>
 
 <?php
 include "$inc/footer.php";
