@@ -6,7 +6,7 @@ include "$inc/header.php";
 ?>
 
     <h1>Games</h1>
-    <h2 style="text-align: center;">Test your skills with the various games that HyperSpace offers. Team up with your friends or make new ones as you trench across the galaxy! Ticket payouts vary with each game.</h2>
+    <h2 class="center-text">Test your skills with the various games that HyperSpace offers. Team up with your friends or make new ones as you trench across the galaxy! Ticket payouts vary with each game.</h2>
     <div class="gaaa">
         <div class="parallax parallax-30">
             <div class="black">
