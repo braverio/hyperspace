@@ -333,7 +333,45 @@ img.sm {
     background-image: url("../images/food/soup.jpeg");
 }
 
+.parallax-30 {
+    background-image: url("../images/games/tossingintospace.jpg");
+}
+
+.parallax-31 {
+    background-image: url("../images/games/shooting.jpg");
+}
+
+.parallax-32 {
+    background-image: url("../images/games/bball.jpg");
+}
+
+.parallax-33 {
+    background-image: url("../images/games/skeeball-main.jpg");
+}
+
+.parallax-34 {
+    background-image: url("../images/games/air-hockey-main.jpg");
+}
+
+.parallax-35 {
+    background-image: url("../images/games/asteroid.jpg");
+}
+
+.parallax-36 {
+    background-image: url("../images/games/racing.jpg");
+}
+
+.parallax-37 {
+    background-image: url("../images/games/maze.jpg");
+}
+
 .foood div {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.gaaa div {
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto';
