@@ -40,12 +40,11 @@
             <p><a href="/contact/">Contact form</a></p>
             <p>1.HYP.ERS.PACE</p>
             <p>1.497.377.7223</p>
-            <p>13 Apollo Rd</p>
-            <p>Cypress, CA 90630</p>
+            <p>13 Apollo Rd, Cypress, CA 90630</p>
         </div>
-        <div class="container row">
-            <p>All products depicted on this website are ficticious and are for the FBLA 2017 Website Design Competition only.</p>
-            <p>All media on this page are licensed under Creative Commons or are created and modified by the authors of this page.</p>
-        </div>
+    </div>
+    <div class="container row">
+        <p>All products depicted on this website are ficticious and are for the FBLA 2017 Website Design Competition only.</p>
+        <p>All media on this page are licensed under Creative Commons or are created and modified by the authors of this page.</p>
     </div>
 </footer>
