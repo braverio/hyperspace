@@ -27,7 +27,7 @@ $(function(){
                     <div class="col-4"><a class="button" href="#snacks">Snack Bar</a></div>
                 </li>
             </ul>
-            <div id="snacks" class="foood">
+            <div id="snacks" class="foood row">
                 <h2>Snack Bar</h2>
                 <div class="parallax parallax-7">
                     <div class="black">
@@ -126,7 +126,7 @@ $(function(){
                     </div>
                 </div>
             </div>
-            <div id="mains" class="foood">
+            <div id="mains" class="foood row">
                 <h2>Mains</h2>
                 <div style="position: relative">
                     <div class="parallax parallax-19">
@@ -179,7 +179,7 @@ $(function(){
                     </div>
                 </div>
             </div>
-            <div id="sides" class="foood">
+            <div id="sides" class="foood row">
                 <h2>Sides</h2>
                 <div style="position: relative">
                     <div class="parallax parallax-25">

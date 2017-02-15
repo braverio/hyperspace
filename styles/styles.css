@@ -519,6 +519,7 @@ img.sm {
     font-weight: bold;
     padding: 0.25em;
     width: 100%;
+    transition: background-color .25s;
 }
 
 .button:hover,
