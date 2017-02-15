@@ -44,7 +44,7 @@
             <p>Cypress, CA 90630</p>
         </div>
         <div class="row">
-            <p>All products depicted on this websirte are ficticious and are for the FBLA 2017 Website Design Competition only.</p>
+            <p>All products depicted on this website are ficticious and are for the FBLA 2017 Website Design Competition only.</p>
             <p>All media on this page are licensed under Creative Commons or are created and modified by the authors of this page.</p>
         </div>
     </div>
