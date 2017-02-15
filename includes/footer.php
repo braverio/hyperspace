@@ -2,8 +2,8 @@
     <div class="container row">
         <div class="col-4">
             <h2>See us on Social Media</h2>
-            <a href="https://facebook.com/hyperspaceblastoff" target="_blank"><img src="/img/facebook.svg" class="sm"></a>
-            <a href="https://twitter.com/hyperspace_club" target="_blank"><img src="/img/twitter.svg" class="sm"></a>
+            <a href="https://facebook.com/hyperspaceblastoff" target="_blank"><img src="/images/facebook.svg" class="sm"></a>
+            <a href="https://twitter.com/hyperspace_club" target="_blank"><img src="/images/twitter.svg" class="sm"></a>
             <a href="https://www.instagram.com/hyperspace_club/" target="_blank"><img src="/images/instagram.svg" class="sm"></a>
         </div>
         <div class="col-4">
@@ -36,14 +36,14 @@
             </script>
         </div>
         <div class="col-4">
-            <h2>Contact us</h2><br>
+            <h2>Contact us</h2>
             <p><a href="/contact/">Contact form</a></p>
             <p>1.HYP.ERS.PACE</p>
             <p>1.497.377.7223</p>
             <p>13 Apollo Rd</p>
             <p>Cypress, CA 90630</p>
         </div>
-        <div class="row">
+        <div class="container row">
             <p>All products depicted on this website are ficticious and are for the FBLA 2017 Website Design Competition only.</p>
             <p>All media on this page are licensed under Creative Commons or are created and modified by the authors of this page.</p>
         </div>
