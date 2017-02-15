@@ -14,7 +14,7 @@
 
 <body>
     <div id="navbar-wrap">
-    <nav id="navbar">
+    <nav id="navbar" class="hide-on-mobile">
         <ul>
             <li>
                 <a href="/"><img src="/images/favicon.svg"></a>
@@ -37,6 +37,23 @@
                 <a href="/reserve">Reserve</a>
             </li>
         </ul>
+    </nav>
+        
+    <nav class="hide-on-desktop">
+        <script>
+            function toggle(){
+                $("#hamburger").slideToggle();
+            }
+        </script>
+        <img src="/images/hamburger.svg" id="toggleMenu" onclick="toggle()">
+        <ul id="hamburger" class="hidden"> 
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/gmaes">Games</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/reserve">Reservations</a></li>
+	   </ul>
     </nav>
     </div>
     
