@@ -24,7 +24,7 @@ li {
 }
 
 body {
-    background-color: #161925;
+    background-color: #1B1B1E;
     font-size: 12px;
 }
 
@@ -375,7 +375,7 @@ img.sm {
 #logo-wrap {
     background-color: rgba(50, 50, 50, 0.5);
     text-align: center;
-    padding:1em;
+    padding: 1em;
 }
 
 #logo-wrap img {
@@ -498,10 +498,21 @@ img.sm {
     font-weight: bold;
 }
 
-.center-text{text-align: center;}
-.left-text{text-align: left;}
-.right-text{text-align: right;}
-.justify-text{text-align: justify;}
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.justify-text {
+    text-align: justify;
+}
 
 .button {
     color: #ccc;
@@ -573,11 +584,13 @@ img.sm {
     border: 2px #ccc solid;
 }
 
-.form-container{
+.form-container {
     margin-left: auto;
     margin-right: auto;
 }
-.form-container input, .form-container textarea{
+
+.form-container input,
+.form-container textarea {
     width: 100%;
     border: none;
     padding: 0.5em;
@@ -586,7 +599,7 @@ img.sm {
     resize: none;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     padding: 0.5em;

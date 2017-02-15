@@ -19,7 +19,7 @@ include "$inc/header.php";
         </div>
         <div>
             <h2>Daily Time Slots Available</h2>
-            <p class="center-text">12pm to 4pm<br>5pm to 8pm</p>
+            <p class="center-text">12PM to 4PM<br>5PM to 8PM</p>
         </div>
         <div>
             <h2>Party Rooms Available</h2>
@@ -41,7 +41,7 @@ include "$inc/header.php";
                 <option value="2" data-max=55>Sun Room</option>
                 <option value="3" data-max=100>Galaxy Room</option>
             </select>
-            <h2>Number of Atronauts</h2><input id="number" type="number" name="guests" min="6" max="25" required placeholder="6 person minimum to reserve a party"><br><br>
+            <h2>Number of Astronauts</h2><input id="number" type="number" name="guests" min="6" max="25" required placeholder="6 person minimum to reserve a party"><br><br>
             <h2 id="date">Date</h2><input type="text" name="day" id="datepicker" required placeholder="Choose a date to see available times"><br><br>
             <h2>Times</h2>
             <select id="time" name="time" disabled required>
@@ -54,6 +54,7 @@ include "$inc/header.php";
                 <option value="2" data-price="21.99">Earth</option>
                 <option value="3" data-price="25.99">Jupiter</option>
             </select>
+            <br>
         <p>Upon submission, you will be emailed a message which you will have to click through in order to confirm your reservation. If you do not receive it within a few minutes, be sure to check your spam folder.</p>
         <input type="submit" value="Reserve Now!" class="button">
         </form>
