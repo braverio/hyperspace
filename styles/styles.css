@@ -88,10 +88,6 @@ nav ul {
     text-align: center;
 }
 
-nav>ul {
-    height: 4em;
-}
-
 nav li {
     padding: 1em;
     font-size: 1.2em;
