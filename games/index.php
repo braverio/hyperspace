@@ -4,7 +4,7 @@ require "../includes/common.php";
 $title = "Games";
 include "$inc/header.php";
 ?>
-<div class="navoffset"></div>
+
     <h1>Games</h1>
     <h2 style="text-align: center;">Test your skills with the various games that HyperSpace offers. Team up with your friends or make new ones as you trench across the galaxy! Ticket payouts vary with each game.</h2>
     <div class="gaaa">
@@ -18,7 +18,7 @@ include "$inc/header.php";
                     </div>
                 </div>
             </div>
-        </div>
+      </div>
 
         <div class="parallax parallax-31">
             <div class="black">
