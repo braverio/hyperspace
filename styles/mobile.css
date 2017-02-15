@@ -1,0 +1,21 @@
+@media only screen and (max-width: 786px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    .hide-on-desktop{
+        display: block;
+    }
+    *{
+        margin:0;
+    }
+}
+
+.hide-on-mobile{
+    display: block;
+}
+.hide-on-desktop{
+    display: none;
+}
