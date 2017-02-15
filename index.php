@@ -52,7 +52,7 @@ include "$inc/header.php";
     <div id="admissions" class="row">
         <h1>General Admission</h1>
         <div class="col-6">
-            <p>Just go ahead and load your Space Card with ateroids, where you can spend them on games. You may do this using our online system or just complete your transaction at the check-in desk. From these asteroids, you can gain tickets from playing and acheiving high scores!</p>
+            <p>Just go ahead and load your Space Card with asteroids, where you can spend them on games. You may do this using our online system or just complete your transaction at the check-in desk. From these asteroids, you can gain tickets from playing and acheiving high scores!</p>
         </div>
         <div class="col-6">
             <h3><span class="bold">100 Asteroids</span> $17.99</h3>
@@ -67,17 +67,17 @@ include "$inc/header.php";
         <h1>Party Packages</h1>
         <div class="col-4">
             <h2>Pluto Package</h2>
-            <p>Inlcudes one serving of a main and side per astronaut,unlimited drinks, and 30 asteroids</p>
+            <p>Inlcudes one serving of a main and side per astronaut, unlimited drinks, and 30 asteroids</p>
             <p>Starting from $12.99*</p>
         </div>
         <div class="col-4">
             <h2>Earth Package</h2>
-            <p>Inlcudes 2 servings of a main and one side per astronaut,unlimited drinks, goodie bag, and 50 asteroids</p>
+            <p>Inlcudes 2 servings of a main and one side per astronaut, unlimited drinks, goodie bag, and 50 asteroids</p>
             <p>Starting from $16.99*</p>
         </div>
         <div class="col-4">
             <h2>Jupiter Package</h2>
-            <p>All-you-can-eat entrees and sides,unlimited drinks, goodie bag, and 100 asteroids</p>
+            <p>All-you-can-eat mains and sides, unlimited drinks, goodie bag, and 100 asteroids</p>
             <p>Starting from $19.99*</p>
         </div>
     </div>
