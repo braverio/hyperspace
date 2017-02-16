@@ -14,17 +14,20 @@ include "$inc/header.php";
         <div>
             <h1>Reserve Now!</h1>
             <h2>Planning a Party?</h2>
-            <p>Please fill out the form on this page in order to book your party. Reservations must be placed 2 days in advance in order to allow our team time to set up.</p>
+            <p>Please fill out the form in order to book your party. Reservations must be placed 2 days in advance in order to allow our team time to set up and to provide you with the best experience.</p>
             <p>For more information, please call 1.497.377.7223</p>
         </div>
+        <br>
         <div>
             <h2>Daily Time Slots Available</h2>
             <p class="center-text">12PM to 4PM<br>5PM to 8PM</p>
         </div>
+        <br>
         <div>
             <h2>Party Rooms Available</h2>
             <p class="center-text">Moon Room: 25 max<br>Sun Room: 55 max<br>Galaxy Room: 100 max<br></p>
         </div>
+        <br>
         <div>
             <h2>Party Packages (price/person)</h2>
             <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
