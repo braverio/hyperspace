@@ -23,7 +23,7 @@ if (empty($_SESSION['token'])) {
             <br>
             <p class="center-text">Monday to Thursday: 11AM to 10PM<br>Friday to Sunday: 9AM to 11PM</p>
             <br><br>
-            <img src="images/alien.png" style="height: 16em;">
+            <img src="/images/alien.png" style="height: 16em;">
         </div>
     <div class="col-6">
     <div class="form-container">

@@ -58,7 +58,7 @@ include "$inc/header.php";
                 <option value="3" data-price="25.99">Jupiter</option>
             </select>
             <br>
-        <p>Upon submission, you will be emailed a message which you will have to click through in order to confirm your reservation. If you do not receive it within a few minutes, be sure to check your spam folder.</p>
+        <p>Upon submission, you will be emailed a verification in which you will have to confirm your reservation. If you do not receive it within a few minutes, be sure to check your spam folder.</p>
         <input type="submit" value="Reserve Now!" class="button">
         </form>
     </div>
