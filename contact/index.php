@@ -10,19 +10,21 @@ if (empty($_SESSION['token'])) {
 ?>
 
 
-<div class="container row">
-    <div class="col-6">
-        <h1>Contact Us</h1><br>
-        <p>For any questions, comments, or concerns, please use the contact form below. If, however you would like to make a reservation at our restaurant, use the <a href="/reserve/">reservations form</a> instead.</p>
-        <br>
-        <p>Phone calls at 1.HYP.ERS.PACE or 1.497.377.7223 during our operating hours are also welcome.</p>
-        <br>
-        <p>You may also send a letter to or come visit us at 13 Apollo Rd, Cypress, CA 90630.</p>
-        
-        <h2>Hours of Operation</h2>
-        <p class="center-text">Monday to Thursday: 11AM to 10PM<br>Friday to Sunday: 9AM to 11PM</p>
-        <img src="images/alien.png">
-    </div>
+ <div class="container row">
+        <div class="col-6">
+            <h1>Contact Us</h1><br>
+            <p>For any questions, comments, or concerns, please use the contact form below. If, however you would like to make a reservation at our restaurant, use the <a href="/reserve/">reservations form</a> instead.</p>
+            <br>
+            <p>Phone calls at 1.HYP.ERS.PACE or 1.497.377.7223 during our operating hours are also welcome.</p>
+            <br>
+            <p>You may also send a post/letter to or visit us at 13 Apollo Rd, Cypress, CA 90630.</p>
+            <br><br>
+            <h2>Hours of Operation</h2>
+            <br>
+            <p class="center-text">Monday to Thursday: 11AM to 10PM<br>Friday to Sunday: 9AM to 11PM</p>
+            <br><br>
+            <img src="images/alien.png" style="height: 16em;">
+        </div>
     <div class="col-6">
     <div class="form-container">
         <form action="process.php" method="POST">

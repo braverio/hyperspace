@@ -589,6 +589,10 @@ img.sm {
     margin-right: auto;
 }
 
+.form-container h2 {
+    display: inline-block;
+}
+
 .form-container input,
 .form-container textarea {
     width: 100%;
