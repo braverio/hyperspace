@@ -5,7 +5,7 @@ $title = "About";
 include "$inc/header.php";
 ?>
 <div style="height:1em"></div>
-<h1>About Us</h1>
+<h1 style="font-size: 7em">About Us</h1>
     <div id="about-wrap" class="container row">
         <div class="col-9">
             <h2>Our Story</h2>

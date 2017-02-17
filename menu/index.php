@@ -28,7 +28,10 @@ $(function(){
                 </li>
             </ul>
             <div id="snacks" class="foood row">
-                <h2>Snack Bar</h2>
+                <div class="foodhead">
+                    <h2>Snack Bar</h2>
+                    <h3>Come to our snack bar, located next to the prizes and ticket payout area, to experience what it really feels like to live in space!</h3>
+                </div>
                 <div class="parallax parallax-7">
                     <div class="black">
                         <div class="vertical-center">
@@ -127,7 +130,10 @@ $(function(){
                 </div>
             </div>
             <div id="mains" class="foood row">
-                <h2>Mains</h2>
+                <div class="foodhead">
+                    <h2>Mains</h2>
+                    <h3>Each main comes with a refillable drink. Feel free to dine in our individual pods or in the dining room.</h3>
+                </div>
                 <div style="position: relative">
                     <div class="parallax parallax-19">
                         <div class="black">
@@ -180,7 +186,10 @@ $(function(){
                 </div>
             </div>
             <div id="sides" class="foood row">
-                <h2>Sides</h2>
+                <div class="foodhead">
+                    <h2>Sides</h2>
+                    <h3>You can't ever go wrong with sides. Take your pick, and check out the snack bar as well!</h3>
+                </div>
                 <div style="position: relative">
                     <div class="parallax parallax-25">
                         <div class="black">
