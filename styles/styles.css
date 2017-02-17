@@ -483,7 +483,7 @@ img.sm {
 }
 
 .circle img {
-    width: 75%;
+    width: 100%;
     padding: 10%;
     border: 1px solid #222;
     border-radius: 50%;

@@ -51,10 +51,10 @@ include "$inc/header.php";
     
     <div id="admissions" class="row">
         <h1>General Admission</h1>
-        <div class="col-6">
+        <div class="col-7">
             <p>Just go ahead and load your Space Card with asteroids, where you can spend them on games. You may do this using our online system or just complete your transaction at the check-in desk. From these asteroids, you can gain tickets from playing and acheiving high scores!</p>
         </div>
-        <div class="col-6">
+        <div class="col-5">
             <h3><span class="bold">100 Asteroids</span> $17.99</h3>
             <h3><span class="bold">75 Asteroids</span> $14.99</h3>
             <h3><span class="bold">50 Asteroids</span> $9.99</h3>
