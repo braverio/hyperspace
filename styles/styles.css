@@ -177,7 +177,7 @@ video {
     }
     #main-games div {
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 3.5rem !important;
         font-weight: bold;
         font-family: 'Roboto';
         line-height: 20rem;
