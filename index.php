@@ -18,7 +18,7 @@ include "$inc/header.php";
                 </div>            
             </div>
             <div class="container">
-                <a href="#1"><div class="button" style="width: 10em;">Learn more</div></a>
+                <a href="#1"><div class="button" style="width: 8em;">Learn more</div></a>
             </div>
         </div>
         </div>
