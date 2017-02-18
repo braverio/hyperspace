@@ -5,13 +5,6 @@ $title = "Menu";
 include "$inc/header.php";
 ?>
 
-<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
-<script>
-$(function(){
-  $(".tabs").tabs();
-});
-</script>
-
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
         <h1>Our Food Items</h1>
@@ -235,6 +228,14 @@ $(function(){
             </div>
         </div>
     </div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
+<script>
+$(function(){
+  $(".tabs").tabs();
+});
+</script>
 <?php
 include "$inc/footer.php";    
 ?>

@@ -1,0 +1,74 @@
+.limgwa {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    padding: 0%;
+    margin-top: 3.5em;
+    transition: padding .25s;
+}
+
+.imgwa {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    padding: 0%;
+    transition: padding .25s;
+}
+
+.child-left {
+    float: left;
+}
+.whole {
+    margin-right: auto;
+    max-width: 1600px;
+    position: relative;
+    text-align: center;
+}
+
+#sodaimg {
+    margin-top: 5em;
+    width: 75%;
+    height: 10%;
+}
+.onegame {
+    margin-left: 4em;
+    border-radius: 25px;
+    width: 85%;
+    height: 15em;
+    position: relative;
+    margin-bottom: 4em;
+    background-color: #001f3f;
+}
+
+.onegameOG {
+    margin-left: 4em;
+    border-radius: 25px;
+    width: 74%;
+    height: 15em;
+    position: absolute;
+    margin-bottom: 4em;
+    background-color: #001f3f;
+}
+
+.gameimg {
+    width: 15em;
+    height: 15em;
+    float: left;
+    margin-right: 2em;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.nameanddes {
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 1em;
+}
+#gamesdes {
+    margin-left: 3em;
+    margin-right: 3em;
+    color: black;
+}
+.foodhead {
+    text-align: center;
+}

@@ -3,12 +3,9 @@
 
 <head>
     <title>Hyperspace &raquo; <?php echo $title?></title>
-    <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/mobile.css">
-    <link rel="icon" href="/images/favicon.svg">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="/scripts/scroll.js"></script>
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
 </head>
 
