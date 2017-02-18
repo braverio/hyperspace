@@ -231,7 +231,6 @@ include "$inc/header.php";
         </div>
     </div>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 <script>
 $(function(){

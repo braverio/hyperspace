@@ -62,7 +62,6 @@ include "$inc/header.php";
             </form>
         </div>
     </div>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 <script src="/scripts/reserve.js"></script>
 

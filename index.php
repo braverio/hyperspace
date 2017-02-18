@@ -5,7 +5,6 @@ $title = "Home";
 include "$inc/header.php";
 ?>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="/scripts/onLoad.js"></script>
 
 <div id="content-wrap">

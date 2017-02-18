@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
