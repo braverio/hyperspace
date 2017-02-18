@@ -5,6 +5,8 @@ $title = "Menu";
 include "$inc/header.php";
 ?>
 
+<link href="/styles/game-menu.css" rel="stylesheet">
+
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
         <h1>Our Food Items</h1>
