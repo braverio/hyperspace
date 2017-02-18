@@ -5,9 +5,8 @@ $title = "Reserve";
 include "$inc/header.php";
 ?>
 
+
 <link rel="stylesheet" href="/scripts/jquery-ui/jquery-ui.min.css">
-<script src="/scripts/reserve.js"></script>
-<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
 
  <div class="container row">
         <div class="col-6">
@@ -63,6 +62,8 @@ include "$inc/header.php";
             </form>
         </div>
     </div>
+<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
+<script src="/scripts/reserve.js"></script>
 
 <?php
 include "$inc/footer.php";

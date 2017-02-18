@@ -5,12 +5,7 @@ $title = "Menu";
 include "$inc/header.php";
 ?>
 
-<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
-<script>
-$(function(){
-  $(".tabs").tabs();
-});
-</script>
+<link href="/styles/game-menu.css" rel="stylesheet">
 
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
@@ -162,7 +157,7 @@ $(function(){
                     <div class="parallax parallax-22">
                         <div class="black">
                             <div class="vertical-center">
-                                <h1>Space Burgers/Sliders</h1>
+                                <h1>Space Burgers &amp; Sliders</h1>
                                 <h2>$3.99 - $5.49</h2>
                             </div>
                         </div>
@@ -235,6 +230,13 @@ $(function(){
             </div>
         </div>
     </div>
+
+<script src="/scripts/jquery-ui/jquery-ui.min.js"></script>
+<script>
+$(function(){
+  $(".tabs").tabs();
+});
+</script>
 <?php
 include "$inc/footer.php";    
 ?>

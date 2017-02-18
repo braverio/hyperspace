@@ -1,11 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-html,
-div,
-span,
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
 ol,
-ul,
-li {
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* END CSS RESET*/
+
+html, div, span, ol, ul, li {
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,6 +76,126 @@ li {
     list-style-type: none;
     color: white;
     font-family: 'Roboto';
+}
+
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:1em;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.row{
+    margin:1em 10em;
+}
+
+@media only screen and (max-width: 786px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    .hide-on-desktop{
+        display: block;
+    }
+    div,p,h1,h2,h3,h4,h5,h6,html,span{
+        margin:0;
+    }
+    
+    h1{
+        font-size: 2.5em !important;
+    }
+    
+    .row{
+        margin:0;
+        padding: 0;
+    }
+    #main-games div {
+        text-align: center;
+        font-size: 2rem !important;
+        font-weight: bold;
+        font-family: 'Roboto';
+        line-height: 20rem;
+    }
+}
+
+@media only screen and (min-width: 786px) {
+    .hide-on-mobile{
+        display: block;
+    }
+    .hide-on-desktop{
+        display: none;
+    }
 }
 
 .parallax-o {
@@ -51,8 +233,7 @@ p {
     text-align: center;
 }
 
-a,
-a:visited {
+a, a:visited {
     text-decoration: none;
     color: #bbb;
     transition: color .25s;
@@ -245,7 +426,7 @@ img.sm {
 }
 
 .parallax-9 {
-    background-image: url("/images/food/fruit-min.png");
+    background-image: url("/images/food/fruit.jpg");
 }
 
 .parallax-10 {
@@ -360,18 +541,6 @@ img.sm {
     background-image: url("/images/games/maze-min.png");
 }
 
-.foood div {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Roboto';
-}
-
-.gaaa div {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Roboto';
-}
-
 #logo-wrap {
     background-color: rgba(50, 50, 50, 0.5);
     text-align: center;
@@ -382,49 +551,10 @@ img.sm {
     width: 40%;
 }
 
-.limgwa {
-    height: 15em;
-    width: 15em;
-    position: relative;
-    padding: 0%;
-    margin-top: 3.5em;
-    transition: padding .25s;
-}
-
-.imgwa {
-    height: 15em;
-    width: 15em;
-    position: relative;
-    padding: 0%;
-    transition: padding .25s;
-}
-
-.child-left {
-    float: left;
-}
-
-.foodbar {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.75);
-    color: #2D3B40;
-    font-size: 1.5em;
-    position: absolute;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
 .container {
     max-width: 100vw;
     text-align: center;
 }
-
-.whole {
-    margin-right: auto;
-    max-width: 1600px;
-    position: relative;
-    text-align: center;
-}
-
 .container:after,
 .whole:after,
 .row:after,
@@ -435,47 +565,6 @@ img.sm {
     content: " ";
     clear: both;
     height: 0;
-}
-
-#sodaimg {
-    margin-top: 5em;
-    width: 75%;
-    height: 10%;
-}
-
-.onegame {
-    margin-left: 4em;
-    border-radius: 25px;
-    width: 85%;
-    height: 15em;
-    position: relative;
-    margin-bottom: 4em;
-    background-color: #001f3f;
-}
-
-.onegameOG {
-    margin-left: 4em;
-    border-radius: 25px;
-    width: 74%;
-    height: 15em;
-    position: absolute;
-    margin-bottom: 4em;
-    background-color: #001f3f;
-}
-
-.gameimg {
-    width: 15em;
-    height: 15em;
-    float: left;
-    margin-right: 2em;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
-.nameanddes {
-    text-align: left;
-    margin-left: 5em;
-    margin-right: 1em;
 }
 
 .circle {
@@ -514,7 +603,7 @@ img.sm {
     text-align: justify;
 }
 
-.button {
+.button,input[type="submit"] {
     color: #1B1B1E;
     border: 0;
     display: inline-block;
@@ -537,7 +626,7 @@ img.sm {
 
 #main-games div {
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: bold;
     font-family: 'Roboto';
     line-height: 20rem;
@@ -559,12 +648,6 @@ img.sm {
     width: 75%;
     background-color: rgba(5, 5, 5, 0.5);
     font-size: 1.5em;
-}
-
-#gamesdes {
-    margin-left: 3em;
-    margin-right: 3em;
-    color: black;
 }
 
 .lastrow {
@@ -608,10 +691,6 @@ input[type="submit"] {
     font-size: 2em;
     padding: 0.5em;
     cursor: pointer;
-}
-
-.foodhead {
-    text-align: center;
 }
 
 select {

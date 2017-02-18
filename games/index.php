@@ -5,6 +5,7 @@ $title = "Games";
 include "$inc/header.php";
 ?>
 
+    <link href="/styles/game-menu.css" rel="stylesheet">
     <h1 style="font-size: 7em">Games</h1>
     <h2 class="center-text">Test your skills with the various games that HyperSpace offers. Team up with your friends or make new ones as you trench across the galaxy! Ticket payouts vary with each game.</h2>
     <div class="gaaa row">
