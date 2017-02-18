@@ -175,6 +175,13 @@ video {
         margin:0;
         padding: 0;
     }
+    #main-games div {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-family: 'Roboto';
+        line-height: 20rem;
+    }
 }
 
 @media only screen and (min-width: 786px) {
