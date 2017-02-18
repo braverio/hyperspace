@@ -67,9 +67,19 @@ table {
 
 /* END CSS RESET*/
 
-*,
-*:before,
-*:after {
+html, div, span, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    vertical-align: baseline;
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+*, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -211,8 +221,7 @@ p {
     text-align: center;
 }
 
-a,
-a:visited {
+a, a:visited {
     text-decoration: none;
     color: #bbb;
     transition: color .25s;
@@ -518,18 +527,6 @@ img.sm {
 
 .parallax-37 {
     background-image: url("/images/games/maze-min.png");
-}
-
-.foood div {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Roboto';
-}
-
-.gaaa div {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Roboto';
 }
 
 #logo-wrap {

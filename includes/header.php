@@ -4,7 +4,6 @@
 <head>
     <title>Hyperspace &raquo; <?php echo $title?></title>
     <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/mobile.css">
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <meta name="viewport" content="width=device-width, intial-scale = 1.0">
 </head>
