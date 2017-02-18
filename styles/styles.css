@@ -579,7 +579,7 @@ img.sm {
 }
 
 #staff img {
-    height: 8em;
+    height: 9em;
     border-radius: 75%;
     border: 2px #ccc solid;
 }
@@ -612,4 +612,10 @@ input[type="submit"] {
 
 .foodhead {
     text-align: center;
+}
+
+select {
+    width: auto;
+    height: auto;
+    font-size: 1em;
 }
