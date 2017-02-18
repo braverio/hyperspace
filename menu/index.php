@@ -1,6 +1,5 @@
 <?php
 require "../includes/common.php";
-
 $title = "Menu";
 include "$inc/header.php";
 ?>
