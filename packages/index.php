@@ -9,6 +9,7 @@ include "$inc/header.php";
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
     <h1>Party Packages</h1>
+    <h2 class="center-text">Be sure to fill out the <a href="/reserve/">reservations form</a> to book a package! Special events like birthdays will come with an extra gift for the birthday star.</h2>
     <div class="gaaa row">
         <div class="parallax parallax-38">
             <div class="black">
