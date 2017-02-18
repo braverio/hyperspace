@@ -157,7 +157,7 @@ include "$inc/header.php";
                     <div class="parallax parallax-22">
                         <div class="black">
                             <div class="vertical-center">
-                                <h1>Space Burgers/Sliders</h1>
+                                <h1>Space Burgers &amp; Sliders</h1>
                                 <h2>$3.99 - $5.49</h2>
                             </div>
                         </div>
