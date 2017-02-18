@@ -22,9 +22,9 @@ if (empty($_SESSION['token'])) {
             <h2>Hours of Operation</h2>
             <p class="center-text">Monday to Thursday<br>11AM to 10PM<br><br>Friday to Sunday<br>9AM to 11PM</p>
             <br><br>
-            <img src="/images/alien.png" style="height: 12em; margin-right: 1em;">
-            <img src="/images/alien.png" style="height: 12em; margin-right: 1em;">
-            <img src="/images/alien.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
         </div>
         <div class="col-6">
             <div class="form-container">

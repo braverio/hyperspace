@@ -24,26 +24,26 @@ include "$inc/header.php";
         </div>
     </div>
     <div id="1" class="row container">
-        <img style="height:5em;" src="images/alien.png">
+        <img style="height:5em;" src="images/alien-min.png">
         <h1>What We Offer</h1>
         <p>At this family entertainment center, we strive to make you happy.</p>
         <div class="col-3 circle">
-            <img src="images/family.jpeg">
+            <img src="images/family-min.png">
             <h2>Family</h2>
             <p>Bringing family and friends together is our number one priority here at HyperSpace. We've created an atmosphere that will make you never want to leave.</p>
         </div>
         <div class="col-3 circle">
-            <img src="images/party.jpeg">
+            <img src="images/party-min.png">
             <h2>Parties</h2>
             <p>We offer exclusive party and birthday packages so that you can enjoy unlimitless fun without all the hassle. Visit the reserve page to find out more!</p>
         </div>
         <div class="col-3 circle">
-            <img src="images/foods.jpeg">
+            <img src="images/foods-min.png">
             <h2>Food</h2>
             <p>HyperSpace offers top-quality dining. Not feeling like eating a whole meal? Check out our futuristic snack bar. You'll never leave our place with an empty stomach!</p>
         </div>
         <div class="col-3 circle">
-            <img src="images/game.jpg">
+            <img src="images/game-min.png">
             <h2>Games</h2>
             <p>Swing on by to load your asteroids to play our top-rated games! Check out the attractions below!</p>
         </div>

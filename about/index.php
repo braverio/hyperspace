@@ -24,11 +24,11 @@ include "$inc/header.php";
             <h2>Our Team</h2>
             <div id="staff">
                 <div class="circle">
-                    <img src="/images/girl.jpg">
+                    <img src="/images/girl-min.png">
                 </div>
                 <h3>Lisa Goodwin, Founder</h3>
                 <div class="circle">
-                    <img src="/images/guy.jpg">
+                    <img src="/images/guy-min.png">
                 </div>
                 <h3>Henry Marksalv, Manager</h3>
             </div>
