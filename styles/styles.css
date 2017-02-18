@@ -171,6 +171,11 @@ video {
     div,p,h1,h2,h3,h4,h5,h6,html,span{
         margin:0;
     }
+    
+    h1{
+        font-size: 1em !important;
+    }
+    
     .row{
         margin:0;
         padding: 0;
