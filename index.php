@@ -14,7 +14,7 @@ include "$inc/header.php";
             <div id="logo-wrap">
                 <img src="/images/hyperspace.svg">
                 <div class="container">
-                    <h2 style="padding: 1em 0em 0em; color:#ccc; font-size: 1.5em;">Where not even the skies can limit you.</h2>
+                    <h2 style="padding: 0.5em 0em 0em; color:white; font-size: 1.5em;">Where not even the skies can limit you.</h2>
                 </div>            
             </div>
             <div class="container">
