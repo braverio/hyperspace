@@ -9,7 +9,7 @@ include "$inc/header.php";
 <div class="navbaroffset"></div>
 <div clas="content-wrap container">
     <h1>Party Packages</h1>
-    <div class="gaaa">
+    <div class="gaaa row">
         <div class="parallax parallax-38">
             <div class="black">
                 <div class="vertical-center">
