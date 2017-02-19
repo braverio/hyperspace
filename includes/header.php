@@ -32,6 +32,10 @@
             </li>
             <li>
                 <a href="/reserve">Reserve</a>
+                <ul>
+                    <li> <a href="/reserve">Reserve</a></li>
+                    <li> <a href="/packages">Packages</a></li>
+                </ul>
             </li>
         </ul>
     </nav>
@@ -49,6 +53,7 @@
             <li><a href="/contact">Contact Us</a></li>
             <li><a href="/games">Games</a></li>
             <li><a href="/menu">Menu</a></li>
+            <li><a href="/packages">Packages</a></li>
             <li><a href="/reserve">Reservations</a></li>
 	   </ul>
     </nav>
