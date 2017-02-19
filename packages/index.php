@@ -45,6 +45,9 @@ include "$inc/header.php";
             </div>
         </div>
     </div>
+    <div class="row">
+        <a href="/reserve"><div class="col-12 button">Reserve Now</div></a>
+    </div>
 </div>
 <?php
 include "$inc/footer.php";    
