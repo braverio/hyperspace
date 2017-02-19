@@ -17,7 +17,7 @@ include "$inc/header.php";
                     <div style="margin-left: 1em; margin-right: 1em;">
                         <h1>Pluto</h1>
                         <h3>Inlcudes one serving of a main and side per astronaut, unlimited drinks, and 30 asteroids</h3>
-                        <h3>1 - 24 astronaut(s) $17.99 per<br> 25 - 50 astronauts $15.99 per<br> 51+ astronauts $13.99 per</h3>
+                        <br><h3>1 - 24 astronaut(s) $17.99 per<br> 25 - 50 astronauts $15.99 per<br> 51+ astronauts $13.99 per</h3>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@ include "$inc/header.php";
                     <div style="margin-left: 1em; margin-right: 1em;">
                         <h1>Earth</h1>
                         <h3>Inlcudes 2 servings of a main and one side per astronaut, unlimited drinks, goodie bag, and 50 asteroids</h3>
-                        <h3>1 - 24 astronaut(s) $21.99 per<br> 25 - 50 astronauts $19.99 per<br> 51+ astronauts $17.99 per</h3>
+                        <br><h3>1 - 24 astronaut(s) $21.99 per<br> 25 - 50 astronauts $19.99 per<br> 51+ astronauts $17.99 per</h3>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ include "$inc/header.php";
                     <div style="margin-left: 1em; margin-right: 1em;">
                         <h1>Jupiter</h1>
                         <h3>All-you-can-eat mains and sides, unlimited drinks, goodie bag, and 100 asteroids</h3>
-                        <h3>1 - 24 astronaut(s) $25.99 per<br> 25 - 50  astronauts $23.99 per<br> 51+ astronauts $21.99 per</h3>
+                        <br><h3>1 - 24 astronaut(s) $25.99 per<br> 25 - 50  astronauts $23.99 per<br> 51+ astronauts $21.99 per</h3>
                     </div>
                 </div>
             </div>

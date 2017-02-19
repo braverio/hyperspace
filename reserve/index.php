@@ -30,7 +30,7 @@ include "$inc/header.php";
             <div>
                 <h2>Party Packages (price/person)</h2>
                 <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
-            </div>
+            </div><br><br>
             <img src="/images/alien-blue-min.png" style="height: 12em; margin-right: 1em;">
             <img src="/images/alien-red-min.png" style="height: 12em; margin-right: 1em;">
             <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
@@ -59,7 +59,7 @@ include "$inc/header.php";
                 <option value="2" data-price="21.99">Earth</option>
                 <option value="3" data-price="25.99">Jupiter</option>
                 </select><br>
-                <h2>Occasion</h2><input type="text" name="occasion" placeholder="Optional"><br>
+                <h2>Occasion</h2><input type="text" name="occasion" placeholder="Optional"><br><br>
                 <p>Upon submission, you will be emailed a verification in which you will have to confirm your reservation. If you do not receive it within a few minutes, be sure to check your spam folder.</p>
                 <input type="submit" value="Reserve Now!" class="button">
             </form>
