@@ -65,19 +65,16 @@ include "$inc/header.php";
     <div class="row">
         <h1>Party Packages</h1>
         <div class="col-4">
-            <h2>Pluto Package</h2>
+            <h2>Pluto</h2>
             <p>Inlcudes one serving of a main and side per astronaut, unlimited drinks, and 30 asteroids</p>
-            <p>Starting from $12.99*</p>
         </div>
         <div class="col-4">
-            <h2>Earth Package</h2>
+            <h2>Earth</h2>
             <p>Inlcudes 2 servings of a main and one side per astronaut, unlimited drinks, goodie bag, and 50 asteroids</p>
-            <p>Starting from $16.99*</p>
         </div>
         <div class="col-4">
-            <h2>Jupiter Package</h2>
+            <h2>Jupiter</h2>
             <p>All-you-can-eat mains and sides, unlimited drinks, goodie bag, and 100 asteroids</p>
-            <p>Starting from $19.99*</p>
         </div>
     </div>
     <div class="row btn-wrap">
@@ -91,7 +88,6 @@ include "$inc/header.php";
         <div class="parallax parallax-2">Basketball</div>
         <div class="parallax parallax-3">Skeeball</div>
         <div class="parallax parallax-4">Air Hockey</div>
-        <div class="parallax parallax-5">Spaceship Racing</div>
         <div class="parallax parallax-6">Asteroid Belt Maze</div>
     </div>
     <div class="row">

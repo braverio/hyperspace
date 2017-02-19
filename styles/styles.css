@@ -468,7 +468,7 @@ img.sm {
     background-attachment: fixed;
     background-size: cover;
     height: 20rem;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .parallax-0 {
@@ -492,12 +492,9 @@ img.sm {
     background-image: url("/images/games/air-hockey-main-min.png")
 }
 
-.parallax-5 {
-    background-image: url("/images/games/ufo-min.png");
-}
-
 .parallax-6 {
     background-image: url("/images/games/asteroid-min.png");
+    margin-bottom: 0em;
 }
 
 .parallax-7 {
@@ -509,7 +506,7 @@ img.sm {
 }
 
 .parallax-9 {
-    background-image: url("/images/food/fruit.jpg");
+    background-image: url("/images/food/fruit-min.png");
 }
 
 .parallax-10 {
@@ -794,4 +791,9 @@ select {
     width: auto;
     height: auto;
     font-size: 1em;
+}
+
+.aboutText
+{
+    display: inline-block;
 }

@@ -31,6 +31,9 @@ include "$inc/header.php";
                 <h2>Party Packages (price/person)</h2>
                 <p class="center-text">Pluto: $17.99<br>Earth: $21.99<br>Jupiter: $25.99<br></p>
             </div>
+            <img src="/images/alien-blue-min.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-red-min.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
         </div>
         <div class="col-6 form-container">
             <form method="post" action="process.php">

@@ -9,7 +9,6 @@ if (empty($_SESSION['token'])) {
 }
 ?>
 
-
 <div class="container row">
         <div class="col-6">
             <h1>Contact Us</h1><br>
@@ -23,7 +22,7 @@ if (empty($_SESSION['token'])) {
             <p class="center-text">Monday to Thursday<br>11AM to 10PM<br><br>Friday to Sunday<br>9AM to 11PM</p>
             <br><br>
             <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
-            <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
+            <img src="/images/alien-red-min.png" style="height: 12em; margin-right: 1em;">
             <img src="/images/alien-min.png" style="height: 12em; margin-right: 1em;">
         </div>
         <div class="col-6">
